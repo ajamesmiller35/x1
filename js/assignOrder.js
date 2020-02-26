@@ -34,7 +34,7 @@ function assignOrder(){
         localStorage.setItem('type', type);
     }
 
-    location.href = "/x1/" + order[testNum] + "/" + type + "/0.html";
+    location.href = "./" + order[testNum] + "/" + type + "/0.html";
 }
 
 function getRandomInt(max) {

@@ -1,5 +1,0 @@
-{"id":"5e442d42d07ef","age":"23","gender":"m","nationality":"sdfg","usage":"1-2","usageAmazon":"4"}
-{"isMobile":false,"viewHeight":949,"viewWidth":549}
-{"version":2,"type":"m","totalTime":7180,"distanceUp":0,"distanceDown":12753}
-{"version":2,"type":"m","totalTime":6268,"distanceUp":0,"distanceDown":13437}
-{"version":2,"type":"m","totalTime":2992,"distanceUp":0,"distanceDown":13437}

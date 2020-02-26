@@ -75,7 +75,7 @@
 
             localStorage.setItem('testNum', testNum);
 
-            $('#version').val('0'); 
+            $('#version').val('1'); 
             $('#next').val(next);
             $('#type').val(type);
         });
