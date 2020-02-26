@@ -1,0 +1,13 @@
+{"id":"5e569480997a2","age":"99","gender":"23","nationality":"2323","usage":"2-3","usageAmazon":"3"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":6119,"distanceUp":0,"distanceDown":9300}
+
+{"version":"0","item1":"I could not find this information","item2":"The Wulph","item3":"19","type":"d"}
+
+{"version":1,"type":"d","totalTime":4973,"distanceUp":0,"distanceDown":9500}
+
+{"version":"1","item1":"I don't remember","item2":"5 stars","item3":"3 items","type":"d"}
+
+
+{"s1":"1","s2":"1","s3":"1","s4":"1","s5":"1","s6":"1","s7":"1","s8":"1","s9":"1","s10":"1","s11":"1","s12":""}
+{"complete":"yes"}

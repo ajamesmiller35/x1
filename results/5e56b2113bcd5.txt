@@ -1,0 +1,15 @@
+{"id":"5e56b2113bcd5","age":"30","gender":"m","nationality":"sdfg","usage":"1-2","usageAmazon":"2"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":6064,"distanceUp":0,"distanceDown":9400}
+
+{"version":"0","item1":"9.1 pounds","item2":"jhawk1966","item3":"23","type":"d"}
+
+
+{"version":"0","s1-1":"4","s1-2":"4","s1-3":"4","s1-4":"4","s1-5":"4","s1-6":"4","s1-7":"4","s1-8":"4","s1-9":"4","s1-10":"4","s1-11":"4","s1-12":"4","s1-13":"4","s1-14":"4","s1-15":"4","type":"d"}
+
+{"version":1,"type":"d","totalTime":5768,"distanceUp":500,"distanceDown":9879}
+
+{"version":"0","item1":"3.5 quarts","item2":"3 stars","item3":"1 item","type":"d"}
+
+
+{"version":"1","s1-1":"4","s1-2":"4","s1-3":"4","s1-4":"4","s1-5":"4","s1-6":"4","s1-7":"4","s1-8":"4","s1-9":"4","s1-10":"4","s1-11":"4","s1-12":"4","s1-13":"4","s1-14":"4","s1-15":"4","type":"d"}

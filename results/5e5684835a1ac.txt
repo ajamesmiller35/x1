@@ -1,0 +1,13 @@
+{"id":"5e5684835a1ac","age":"sdf","gender":"asdf","nationality":"sadf","usage":"0-1","usageAmazon":"3"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":6086,"distanceUp":0,"distanceDown":9700}
+
+{"version":"0","item1":"9.1 pounds","item2":"jhawk1966","item3":"23","type":"d"}
+
+{"version":1,"type":"d","totalTime":4542,"distanceUp":0,"distanceDown":9800}
+
+{"version":"1","item1":"3.5 quarts","item2":"3 stars","item3":"1 item","type":"d"}
+
+
+{"s1":"1","s2":"1","s3":"1","s4":"1","s5":"1","s6":"1","s7":"1","s8":"1","s9":"1","s10":"1","s11":"1","s12":""}
+{"complete":"yes"}

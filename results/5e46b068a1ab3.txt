@@ -1,0 +1,15 @@
+{"id":"5e46b068a1ab3","age":"sdfgsdfg","gender":"dfg","nationality":"sdfg","usage":"1-2","usageAmazon":"1"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":6975,"distanceUp":400,"distanceDown":9825}
+
+{"version":"0","item1":"test","item2":"teset","item3":"teste","type":"d"}
+
+{"version":2,"type":"d","totalTime":4803,"distanceUp":0,"distanceDown":9700}
+
+{"version":"2","item1":"sdf","item2":"asdf","item3":"asdf"}
+
+
+{"version":"2","item1":"sdf","item2":"asdf","item3":"asdf"}
+
+
+{"version":"2","item1":"sdf","item2":"asdf","item3":"asdf"}

@@ -1,0 +1,14 @@
+{"id":"5e56957c1b9b9","age":"45","gender":"45","nationality":"45","usage":"0-1","usageAmazon":"0"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":4755,"distanceUp":448,"distanceDown":9825}
+
+{"version":"0","item1":"10.5 pounds","item2":"I could not find this information","item3":"19","type":"d"}
+
+
+{"version":"0","item1":"10.5 pounds","item2":"I could not find this information","item3":"19","type":"d"}
+
+
+{"version":"0","item1":"10.5 pounds","item2":"I could not find this information","item3":"19","type":"d"}
+
+
+{"version":"0","item1":"9.1 pounds","item2":"jhawk1966","item3":"23","type":"d"}

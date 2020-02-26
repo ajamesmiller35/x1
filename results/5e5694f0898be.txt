@@ -1,0 +1,7 @@
+{"id":"5e5694f0898be","age":"35","gender":"m","nationality":"dsfg","usage":"2-3","usageAmazon":"4"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":4174,"distanceUp":0,"distanceDown":9500}
+
+{"version":"0","item1":"10.5 pounds","item2":"I could not find this information","item3":"19","type":"d"}
+
+{"version":1,"type":"d","totalTime":16365,"distanceUp":91,"distanceDown":9615}

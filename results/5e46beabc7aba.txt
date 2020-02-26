@@ -1,0 +1,20 @@
+{"id":"5e46beabc7aba","age":"30","gender":"m","nationality":"usa","usage":"3+","usageAmazon":"4"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":5265,"distanceUp":0,"distanceDown":9500}
+
+{"version":"0","item1":"8.6 pounds","item2":"TCosgrove29","item3":"42","type":"d"}
+
+{"version":1,"type":"d","totalTime":4926,"distanceUp":0,"distanceDown":9500}
+
+{"version":"1","item1":"3.5 quarts","item2":"3 stars","item3":"1 item","type":"d"}
+
+{"version":2,"type":"d","totalTime":5665,"distanceUp":300,"distanceDown":10200}
+
+{"version":"2","item1":"1","item3":"3.2","type":"d"}
+
+{"version":3,"type":"d","totalTime":5024,"distanceUp":0,"distanceDown":10800}
+{"version":3,"type":"d","totalTime":9961,"distanceUp":0,"distanceDown":12800}
+{"version":3,"type":"d","totalTime":7910,"distanceUp":13757,"distanceDown":26514}
+{"version":3,"type":"d","totalTime":3730,"distanceUp":332,"distanceDown":13257}
+
+{"version":"3","item1":"20 hours","item2":"6 months","item3":"Micro USB cable","type":"d"}

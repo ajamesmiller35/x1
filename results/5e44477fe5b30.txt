@@ -1,0 +1,5 @@
+{"id":"5e44477fe5b30","age":"12","gender":"m","nationality":"usa","usage":"0-1","usageAmazon":"2"}
+{"isMobile":false,"viewHeight":949,"viewWidth":948}
+{"version":1,"type":"m","totalTime":5412,"distanceUp":0,"distanceDown":10999}
+
+{"version":"1","item1":"test","item2":"teset","item3":"teste"}
