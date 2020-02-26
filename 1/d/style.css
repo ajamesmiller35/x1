@@ -4,8 +4,7 @@
     padding-top: 20px;
     width: 100%;
     z-index: 999999997;
-    position: fixed;
-    bottom: 0;
+    overflow-x: hidden;
 }
 
 #nav-box{
@@ -49,7 +48,7 @@
     position: absolute;
     z-index: 999999999;
     height: 15px;
-    top: 20px;
+    top: 119px;
     background-color: #febd69;
     opacity: .9;
 }

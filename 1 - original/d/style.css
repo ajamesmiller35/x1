@@ -1,17 +1,19 @@
 #nav-enhanced{
-    height: 55px;
+    height: 58px;
     background-color: #d3d3d3;
     padding-top: 20px;
     width: 100%;
     z-index: 999999997;
-}
-
-.nav-li{
-    display: inline-block;
+    position: fixed;
+    bottom: 0;
 }
 
 #nav-box{
     white-space: nowrap;
+}
+
+.nav-li{
+    display: inline-block;
 }
 
 .li-category{
@@ -47,7 +49,7 @@
     position: absolute;
     z-index: 999999999;
     height: 15px;
-    top: 158px;
+    top: 20px;
     background-color: #febd69;
     opacity: .9;
 }
@@ -55,7 +57,7 @@
 #categories p{
     position: absolute;
     color: #232F3E;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .triangle-up{

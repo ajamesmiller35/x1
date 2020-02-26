@@ -30,7 +30,7 @@
                     <option value="3">Somewhat Disagree</option> 
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -42,7 +42,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -54,7 +54,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -66,7 +66,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -78,7 +78,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -90,7 +90,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div><div class="form-group">
@@ -101,7 +101,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -113,7 +113,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -125,7 +125,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -137,7 +137,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -149,7 +149,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -161,7 +161,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -173,7 +173,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -185,7 +185,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>
@@ -197,7 +197,7 @@
                     <option value="3">Somewhat Disagree</option>
                     <option selected value="4">Neither Agree nor Disagree</option>
                     <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
+                    <option value="6">Strongly Agree</option>
                     <option value="7">Strongly Agree</option>
                 </select>
         </div>

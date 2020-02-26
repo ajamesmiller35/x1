@@ -22,31 +22,34 @@
     <h5>Please fill out the multiple choice form below:</h5>
         <input type="text" name="version" id="version" class="hidden">
         <div class="form-group">
-            <label for="item1">How many different storage size options are available for this product?</label><br>
+            <label for="item1">What is the capacity of this item's bowl?</label><br>
             <select class="form-control" id="item1" name="item1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
+                <option disabled selected>Please choose...</option>
+                <option>3.5 quarts</option>
+                <option>4.5 quarts</option>
+                <option>5 quarts</option>
                 <option>I could not find this information</option>
                 <option>I don't remember</option>
             </select>
         </div>
         <div class="form-group">
-            <label for="item2">Compared to similar items, how many items have more ratings?</label><br>
-            <select class="form-control" id="item2" name="item3">
-                <option>0</option>
-                <option>1</option>
-                <option>2</option>
+            <label for="item2">How many stars did the second reviewer give this item?</label><br>
+            <select class="form-control" id="item2" name="item2">
+                <option disabled selected>Please choose...</option>
+                <option>3 stars</option>
+                <option>4 stars</option>
+                <option>5 stars</option>
                 <option>I could not find this information</option>
                 <option>I don't remember</option>
             </select>
         </div>
         <div class="form-group">
-            <label for="item3">What is the average star rating of reviewers given to this item for "Battery life?"</label><br>
+            <label for="item3">Compared to similar items, how many items have a higher price?</label><br>
             <select class="form-control" id="item3" name="item3">
-                <option>3.2</option>
-                <option>4.1</option>
-                <option>4.6</option>
+                <option disabled selected>Please choose...</option>
+                <option>1 item</option>
+                <option>2 items</option>
+                <option>3 items</option>
                 <option>I could not find this information</option>
                 <option>I don't remember</option>
             </select>
