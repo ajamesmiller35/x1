@@ -24,6 +24,7 @@
         <div class="form-group">
             <label for="item1">What is the capacity of this item's bowl?</label><br>
             <select class="form-control" id="item1" name="item1">
+                <option disabled selected>Please choose...</option>
                 <option>3.5 quarts</option>
                 <option>4.5 quarts</option>
                 <option>5 quarts</option>
@@ -34,6 +35,7 @@
         <div class="form-group">
             <label for="item2">How many stars did the second reviewer give this item?</label><br>
             <select class="form-control" id="item2" name="item2">
+                <option disabled selected>Please choose...</option>
                 <option>3 stars</option>
                 <option>4 stars</option>
                 <option>5 stars</option>
@@ -44,6 +46,7 @@
         <div class="form-group">
             <label for="item3">Compared to similar items, how many items have a higher price?</label><br>
             <select class="form-control" id="item3" name="item3">
+                <option disabled selected>Please choose...</option>
                 <option>1 item</option>
                 <option>2 items</option>
                 <option>3 items</option>

@@ -1,0 +1,16 @@
+{"id":"5e56d0d0cda3e","age":"30","gender":"m","nationality":"usa","usage":"1-2","usageAmazon":"1"}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"isMobile":false,"viewHeight":949,"viewWidth":1680}
+{"version":0,"type":"d","totalTime":13247,"distanceUp":500,"distanceDown":9800}
+
+{"version":"0","item1":"8.6 pounds","item2":"TCosgrove29","item3":"19","type":"d"}
+
+
+{"version":"0","s1-1":"4","s1-2":"4","s1-3":"4","s1-4":"4","s1-5":"4","s1-6":"4","s1-7":"4","s1-8":"4","s1-9":"4","s1-10":"4","s1-11":"4","s1-12":"4","s1-13":"4","s1-14":"4","s1-15":"4","type":"d"}
+
+{"version":1,"type":"d","totalTime":13347,"distanceUp":4400,"distanceDown":13700}
+
+{"version":"0","item1":"I could not find this information","item2":"3 stars","item3":"2 items","type":"d"}
+
+
+{"version":"1","s1-1":"4","s1-2":"4","s1-3":"4","s1-4":"4","s1-5":"4","s1-6":"4","s1-7":"4","s1-8":"4","s1-9":"4","s1-10":"4","s1-11":"4","s1-12":"4","s1-13":"4","s1-14":"4","s1-15":"4","type":"d"}

@@ -24,6 +24,7 @@
         <div class="form-group">
             <label for="item1">What is the item's weight?</label><br>
             <select class="form-control" id="item1" name="item1">
+                <option disabled selected>Please choose...</option>
                 <option>9.1 pounds</option>
                 <option>8.6 pounds</option>
                 <option>10.5 pounds</option>
@@ -34,6 +35,7 @@
         <div class="form-group">
             <label for="item2">What is the name of the first reviewer on the page?</label><br>
             <select class="form-control" id="item2" name="item2">
+                <option disabled selected>Please choose...</option>
                 <option>jhawk1966</option>
                 <option>The Wulph</option>
                 <option>TCosgrove29</option>
@@ -44,6 +46,7 @@
         <div class="form-group">
             <label for="item3">How many upvotes did the question "Does the drill have a hammer setting?" get?</label><br>
             <select class="form-control" id="item3" name="item3">
+                <option disabled selected>Please choose...</option>
                 <option>23</option>
                 <option>42</option>
                 <option>19</option>
