@@ -24,6 +24,7 @@
         <div class="form-group">
             <label for="item1">How many different storage size options are available for this product?</label><br>
             <select class="form-control" id="item1" name="item1">
+                <option disabled selected>Please choose...</option>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -34,6 +35,7 @@
         <div class="form-group">
             <label for="item2">Compared to similar items, how many items have more ratings?</label><br>
             <select class="form-control" id="item2" name="item3">
+                <option disabled selected>Please choose...</option>
                 <option>0</option>
                 <option>1</option>
                 <option>2</option>
@@ -44,12 +46,25 @@
         <div class="form-group">
             <label for="item3">What is the average star rating of reviewers given to this item for "Battery life?"</label><br>
             <select class="form-control" id="item3" name="item3">
+                <option disabled selected>Please choose...</option>
                 <option>3.2</option>
                 <option>4.1</option>
                 <option>4.6</option>
                 <option>I could not find this information</option>
                 <option>I don't remember</option>
             </select>
+        </div>
+        <div class="horizontal-divider"></div>
+        <div class="form-group">
+            <label for="problem">Did you experience any technical difficulties?</label><br>
+            <select class="form-control" id="problem" name="problem">
+                <option selected>No</option>
+                <option>Yes</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="problem-explanation">If yes, please explain:</label>
+            <textarea class="form-control" id="problem-explanation" rows="3" name="problem-explanation"></textarea>
         </div>
         <input type="text" name="next" id="next" class="hidden">
         <input type="text" name="type" id="type" class="hidden">

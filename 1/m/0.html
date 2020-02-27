@@ -103,35 +103,37 @@
 
  <link rel="stylesheet" href="style.css">
 
- <div id="indicator"></div>
+ <div class="nav-all">
+  <div id="indicator"></div>
 
- <div id="nav-push"></div>
-
- <div id="nav-enhanced">
-  <div id="categories">
-      <div id="ct1" class="triangle-up"></div>
-      <a class="scrollTo" href="#division1"><p class="odd" id="c1">Macbook Air</p></a>
-      <div id="ct2" class="triangle-down"></div>
-      <a class="scrollTo" href="#division2"><p class="even" id="c2">From the Manufacturer</p></a>
-      <div id="ct3" class="triangle-up"></div>
-      <a class="scrollTo" href="#division3"><p class="odd" id="c3">Details</p></a>
-      <div id="ct4" class="triangle-down"></div>
-      <a class="scrollTo" href="#division4"><p class="even" id="c4">Compare</p></a>
-      <div id="ct5" class="triangle-up"></div>
-      <a class="scrollTo" href="#division5"><p class="odd" id="c5">Q & A</p></a>
-      <div id="ct6" class="triangle-down"></div>
-      <a class="scrollTo" href="#division6"><p class="even" id="c6">Reviews</p></a>
-    </div><!--categories-->
-  <div id="nav-box">
-    <!--categories: Macbook Air - Compare - Technical Details - Q&A - Reviews -->
-      <a class="scrollTo" href="#division1"><div id="1" class="nav-li li-category"><p>Macbook Air</p></div></a>
-      <a class="scrollTo" href="#division2"><div id="2" class="nav-li nav-li-alt li-category"><p>From the Manufacturer</p></div></a>
-      <a class="scrollTo" href="#division3"><div id="3" class="nav-li li-category"><p>Details</p></div></a>
-      <a class="scrollTo" href="#division4"><div id="4" class="nav-li nav-li-alt li-category"><p>Compare</p></div></a>
-      <a class="scrollTo" href="#division5"><div id="5" class="nav-li li-category"><p>Q & A</p></div></a>
-      <a class="scrollTo" href="#division6"><div id="6" class="nav-li nav-li-alt li-category"><p>Reviews</p></div></a>
-  </div>
-</div><!--nav-box-->
+  <div id="nav-push"></div>
+ 
+  <div id="nav-enhanced">
+   <div id="categories">
+       <div id="ct1" class="triangle-up"></div>
+       <a class="scrollTo" href="#division1"><p class="odd" id="c1">Macbook Air</p></a>
+       <div id="ct2" class="triangle-down"></div>
+       <a class="scrollTo" href="#division2"><p class="even" id="c2">From the Manufacturer</p></a>
+       <div id="ct3" class="triangle-up"></div>
+       <a class="scrollTo" href="#division3"><p class="odd" id="c3">Details</p></a>
+       <div id="ct4" class="triangle-down"></div>
+       <a class="scrollTo" href="#division4"><p class="even" id="c4">Compare</p></a>
+       <div id="ct5" class="triangle-up"></div>
+       <a class="scrollTo" href="#division5"><p class="odd" id="c5">Q & A</p></a>
+       <div id="ct6" class="triangle-down"></div>
+       <a class="scrollTo" href="#division6"><p class="even" id="c6">Reviews</p></a>
+     </div><!--categories-->
+   <div id="nav-box">
+     <!--categories: Macbook Air - Compare - Technical Details - Q&A - Reviews -->
+       <a class="scrollTo" href="#division1"><div id="1" class="nav-li li-category"><p>Macbook Air</p></div></a>
+       <a class="scrollTo" href="#division2"><div id="2" class="nav-li nav-li-alt li-category"><p>From the Manufacturer</p></div></a>
+       <a class="scrollTo" href="#division3"><div id="3" class="nav-li li-category"><p>Details</p></div></a>
+       <a class="scrollTo" href="#division4"><div id="4" class="nav-li nav-li-alt li-category"><p>Compare</p></div></a>
+       <a class="scrollTo" href="#division5"><div id="5" class="nav-li li-category"><p>Q & A</p></div></a>
+       <a class="scrollTo" href="#division6"><div id="6" class="nav-li nav-li-alt li-category"><p>Reviews</p></div></a>
+   </div>
+ </div><!--nav-box-->
+ </div>
 
 <div id="division1"></div>
 
@@ -2112,6 +2114,7 @@ body{
   height: 100%;
   background-color: red;
   z-index: 9999999999;
+  overflow-y:scroll;
 }
 
 #find h1{
@@ -2152,7 +2155,7 @@ body{
  
  <script>
    //set variables unique to page
-   var version = 2;
+   var version = 1;
    var type = 'm';
  
    $('.scrollTo').on('click', function(e) {

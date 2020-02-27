@@ -18,13 +18,13 @@
   <body>
 
     <form method="POST" action="../surveyWrite.php">
-    h3 id="survey-title">How did it go?</h3>
+    <h3 id="survey-title">How did it go?</h3>
     <h5>Please fill out the form below based on your experience with the Amazon product page for the KitchenAid Mixer.</h5>
     <h6>For the following statements, select the option most closely matching how you feel.</h6>
         <input type="text" name="version" id="version" class="hidden">
         <div class="form-group">
-                <label for="s1-1">It would be preferable for me if websites included these features in the future.</label>
-                <select class="form-control" id="s1-1" name="s1-1">
+                <label for="s1">I have the knowledge necessary to use the navigation features of this webpage.</label>
+                <select class="form-control" id="s1" name="s1">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option> 
@@ -35,8 +35,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-2">The navigation of this webpage helped me locate information.</label>
-                <select class="form-control" id="s1-2" name="s1-2">
+                <label for="s2">Using the navigation features was a pleasurable experience.</label>
+                <select class="form-control" id="s2" name="s2">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -47,8 +47,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-3">It is easy for me to navigate the webpage using the navigation features included.</label>
-                <select class="form-control" id="s1-3" name="s1-3">
+                <label for="s3">It would be preferable for me if websites included these features in the future.</label>
+                <select class="form-control" id="s3" name="s3">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -59,8 +59,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-4">II would prefer using websites that included these navigation features.</label>
-                <select class="form-control" id="s1-4" name="s1-4">
+                <label for="s4">The navigation features of this webpage helped me locate information.</label>
+                <select class="form-control" id="s4" name="s4">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -71,8 +71,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-5">Learning how to use the navigation features of this webpage was easy for me.</label>
-                <select class="form-control" id="s1-5" name="s1-5">
+                <label for="s5">It was simple for me to navigate the webpage using the navigation features included.</label>
+                <select class="form-control" id="s5" name="s5">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -83,8 +83,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-6">I have the knowledge necessary to use the navigation features of this webpage.</label>
-                <select class="form-control" id="s1-6" name="s1-6">
+                <label for="s6">The navigation features of this webpage were fun to use.</label>
+                <select class="form-control" id="s6" name="s6">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -94,8 +94,8 @@
                     <option value="7">Strongly Agree</option>
                 </select>
         </div><div class="form-group">
-                <label for="s1-7">The webpage displayed properly on my device.</label>
-                <select class="form-control" id="s1-7" name="s1-7">
+                <label for="s7">I could get help from others if I had difficulty using the navigation features of this webpage</label>
+                <select class="form-control" id="s7" name="s7">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -106,8 +106,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-8">I would be more likely to use a website in the future if it included these navigation features.</label>
-                <select class="form-control" id="s1-8" name="s1-8">
+                <label for="s8">I enjoyed using the navigation features on this webpage.</label>
+                <select class="form-control" id="s8" name="s8">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -118,8 +118,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-9">The navigation features of this webpage were fun to use.</label>
-                <select class="form-control" id="s1-9" name="s1-9">
+                <label for="s9">Learning how to use the navigation features of this webpage was easy for me.</label>
+                <select class="form-control" id="s9" name="s9">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -130,8 +130,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-10">I enjoyed using the navigation features of this webpage.</label>
-                <select class="form-control" id="s1-10" name="s1-10">
+                <label for="s10">I have used navigation features on other websites that were similar to this one.</label>
+                <select class="form-control" id="s10" name="s10">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -142,8 +142,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-11">The navigation features of this webpage increase my chances of finding what I am looking for.</label>
-                <select class="form-control" id="s1-11" name="s1-11">
+                <label for="s11">My interaction with the navigation features of the webpage was easy and understandable.</label>
+                <select class="form-control" id="s11" name="s11">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -154,8 +154,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-12">Using the navigation features made my interaction with this website more enjoyable.</label>
-                <select class="form-control" id="s1-12" name="s1-12">
+                <label for="s12">I would be more likely to use a website in the future if it included these navigation features.</label>
+                <select class="form-control" id="s12" name="s12">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -166,8 +166,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-13">My interaction with the navigation features of the webpage were easy and understandable.</label>
-                <select class="form-control" id="s1-13" name="s1-13">
+                <label for="s13">I would prefer using websites that included these navigation features.</label>
+                <select class="form-control" id="s13" name="s13">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -178,8 +178,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-14">I find the navigation features of this webpage useful for finding what I am looking for.</label>
-                <select class="form-control" id="s1-14" name="s1-14">
+                <label for="s14">The navigation features of this webpage increased my chances of finding what I was looking for.</label>
+                <select class="form-control" id="s14" name="s14">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>
@@ -190,8 +190,8 @@
                 </select>
         </div>
         <div class="form-group">
-                <label for="s1-15">The navigation features of the webpage worked well on my device.</label>
-                <select class="form-control" id="s1-15" name="s1-15">
+                <label for="s15">The navigation features of this webpage were useful for finding what I was looking for.</label>
+                <select class="form-control" id="s15" name="s15">
                     <option value="1">Strongly Disagree</option>
                     <option value="2">Disagree</option>
                     <option value="3">Somewhat Disagree</option>

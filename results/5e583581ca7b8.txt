@@ -1,0 +1,15 @@
+{"id":"5e583581ca7b8","age":"23","gender":"m","nationality":"USA","usage":"2-3","usageAmazon":"2"}
+{"isMobile":true,"viewHeight":812,"viewWidth":375}
+{"version":0,"type":"m","totalTime":6377,"distanceUp":0,"distanceDown":12131}
+
+{"version":"0","item1":"10.5 pounds","item2":"The Wulph","item3":"42","problem":"No","type":"m"}
+
+
+{"version":"0","s1":"5","s2":"5","s3":"5","s4":"3","s5":"5","s6":"3","s7":"5","s8":"3","s9":"5","s10":"3","s11":"5","s12":"3","s13":"5","s14":"3","s15":"5","type":"m"}
+
+{"version":2,"type":"m","totalTime":10935,"distanceUp":200,"distanceDown":12142}
+
+{"version":"1","item1":"3","item3":"4.1","problem":"Yes","type":"m"}
+
+
+{"version":"1","s1":"5","s2":"3","s3":"5","s4":"3","s5":"4","s6":"5","s7":"3","s8":"4","s9":"3","s10":"3","s11":"3","s12":"3","s13":"3","s14":"3","s15":"5","type":"m"}

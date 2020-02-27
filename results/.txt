@@ -1,4 +1,0 @@
-
-{"version":2,"type":"m","totalTime":9796,"distanceUp":138,"distanceDown":17048}
-
-{"version":"0","item1":"8.6 pounds","item2":"TCosgrove29","item3":"19","type":"d"}

@@ -16,7 +16,6 @@
     <title>Survey</title>
   </head>
   <body>
-
     <form method="POST" action="../reviewWrite.php">
     <h3 id="survey-title">Remember your three items?</h3>
     <h5>Please fill out the multiple choice form below:</h5>
@@ -53,6 +52,18 @@
                 <option>I could not find this information</option>
                 <option>I don't remember</option>
             </select>
+        </div>
+        <div class="horizontal-divider"></div>
+        <div class="form-group">
+            <label for="problem">Did you experience any technical difficulties?</label><br>
+            <select class="form-control" id="problem" name="problem">
+                <option selected>No</option>
+                <option>Yes</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="problem-explanation">If yes, please explain:</label>
+            <textarea class="form-control" id="problem-explanation" rows="3" name="problem-explanation"></textarea>
         </div>
         <input type="text" name="next" id="next" class="hidden">
         <input type="text" name="type" id="type" class="hidden">

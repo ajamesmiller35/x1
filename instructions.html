@@ -16,11 +16,22 @@
       <h1 class="text-center">Thanks for participating!</h1>
       <h3 class="text-center">Please read the following instructions:</h3>
       <h3 class="text-red">IMPORTANT:</h3>
-      <p>For this experiment you will be asked to find and remember three items of information on a modified Amazon product web page. Please take your time and don't rush! When you have found and remember all three items, scroll to the very bottom of the page and click "Next" to continue. On the next page you will be quizzed on which items you remember from the previous page. Then on the next page you will be given a survey on your experience with the previous Amazon product page.</p>
+      <p>For this experiment you will be asked to find and remember three items of information on two different Amazon product webpages. Please note that for the purposes of this study links and buttons on the Amazon pages have been disabled except for the "Next" button at the bottom of each page.  Each webpage has a memory test and survey after.</p>
       <p class="text-red text-bold">Pay close attention to the differences you notice in the navigation features of the web pages, and use them to your advantage if you can.</p>
-      <p>One version of the webpage features a standard Amazon product page with standard navigation features.</p>
-      <p>There are a total of two different Amazon pages each with their own memory test and survey after.</p>
-      <p>Press "Begin" to continue.</p>
+      <div class="version-box">
+        <h5>Version 1:</h5>
+        <p>One version of the site features a standard Amazon product page with standard navigation features.</p>
+        <img class="hidden dem-d" src="images/nav-dem0-d.png" alt="">
+        <img class="hidden dem-m" src="images/nav-dem0-m.png" alt="">
+      </div>
+      <div class="version-box">
+        <h5>Version 2:</h5>
+        <p>Another version of the site features an Amazon product page with additional navigation features. The site has an extra area of the navigation bar at the top of the screen that moves with you when you scroll. The grey and blue bar in the center acts as a map of each section of the page. The width of each section in the map matches its size relative to the whole page. The sections are labeled in the map to make them easier to find on the page. The map also features a moving yellow indicator that shows where you are on the page. The width of the yellow indicator matches the visible area of the page. Clicking or tapping each section in the map will automatically scroll you to that section of the page.</p>
+        <img class="hidden dem-d" src="images/nav-dem1-d.png" alt="">
+        <img class="hidden dem-m" src="images/nav-dem1-m.png" alt="">
+      </div>
+      <p>After you click "Continue" below you will be taken to one of the product pages. A red page will appear giving instructions on what to find and remember on the page. You may be asked to remember such things as: "What is this item's weight?" Please read and understand each item before pressing "Begin." After pressing "Begin" find and remember each item. Please take your time and don't rush! When you have found and remember all three items, scroll to the very bottom of the page and click "Next" to continue. On the next page you will be quizzed on which items you remember from the previous page. Then on the next page you will be given a survey on your experience with the previous Amazon product page.</p>
+      <p>When you understand these instructions press "Begin" to continue.</p>
       
       <button class="goButton" onclick="assignOrder()">Begin</button>
     </div><!--container-->
@@ -36,6 +47,14 @@
     <script src="js/getCookie.js"></script>
     <script>console.log(getCookie('id'))
       var isMobile = false; //initiate as false
+      let type = localStorage['type'];
+
+      if(type == 'm'){
+        $('.dem-m').removeClass('hidden');
+      }
+      else{
+        $('.dem-d').removeClass('hidden');
+      }
     </script>
   </body>
 </html>

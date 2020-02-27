@@ -100,6 +100,45 @@
  
  
 </header>
+
+
+<!--nav-enhanced---horizontal-top-->
+
+<link rel="stylesheet" href="style.css">
+
+<div class="nav-all">
+  <div id="indicator"></div>
+
+  <div id="nav-push"></div>
+  
+  <div id="nav-enhanced">
+   <div id="categories">
+       <div id="ct1" class="triangle-up"></div>
+       <a class="scrollTo" href="#division1"><p class="odd" id="c1">DEWALT</p></a>
+       <div id="ct2" class="triangle-down"></div>
+       <a class="scrollTo" href="#division2"><p class="even" id="c2">Compare</p></a>
+       <div id="ct3" class="triangle-up"></div>
+       <a class="scrollTo" href="#division3"><p class="odd" id="c3">From Mfr</p></a>
+       <div id="ct4" class="triangle-down"></div>
+       <a class="scrollTo" href="#division4"><p class="even" id="c4">Details</p></a>
+       <div id="ct5" class="triangle-up"></div>
+       <a class="scrollTo" href="#division5"><p class="odd" id="c5">Q & A</p></a>
+       <div id="ct6" class="triangle-down"></div>
+       <a class="scrollTo" href="#division6"><p class="even" id="c6">Reviews</p></a>
+     </div><!--categories-->
+   <div id="nav-box">
+     <!--categories: Macbook Air - Compare - Technical Details - Q&A - Reviews -->
+       <a class="scrollTo" href="#division1"><div id="1" class="nav-li li-category"><p>DEWALT 20V MAX Drill</p></div></a>
+       <a class="scrollTo" href="#division2"><div id="2" class="nav-li nav-li-alt li-category"><p>Compare</p></div></a>
+       <a class="scrollTo" href="#division3"><div id="3" class="nav-li li-category"><p>From the Mfr</p></div></a>
+       <a class="scrollTo" href="#division4"><div id="4" class="nav-li nav-li-alt li-category"><p>Details</p></div></a>
+       <a class="scrollTo" href="#division5"><div id="5" class="nav-li li-category"><p>Q & A</p></div></a>
+       <a class="scrollTo" href="#division6"><div id="6" class="nav-li nav-li-alt li-category"><p>Reviews</p></div></a>
+   </div>
+  </div><!--nav-box-->
+</div>
+
+
 <div id=dp class=home_improvement_mobile>
  
  <div id=/universal/top-nav/mobile-marketing-nav-placement_feature_div>
@@ -2412,6 +2451,7 @@ body{
   height: 100%;
   background-color: red;
   z-index: 9999999999;
+  overflow-y:scroll;
 }
 
 #find h1{
@@ -2445,6 +2485,7 @@ body{
 </style>
 
 <script src="../../js/jquery.js"></script>
+<script src="enhancedNav.js"></script>
 <script src="../../js/trackScroll.js"></script>
 <script src="../../js/timeScroll.js"></script>
 <script src="../../js/workFlow.js"></script>

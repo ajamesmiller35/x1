@@ -11,12 +11,12 @@
     white-space: nowrap;
 }
 
-.nav-li{
-    display: inline-block;
-}
-
 .nav-all{
     display: none;
+}
+
+.nav-li{
+    display: inline-block;
 }
 
 .li-category{

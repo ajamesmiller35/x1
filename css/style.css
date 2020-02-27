@@ -323,3 +323,16 @@ td p{
 .text-bold{
     font-weight: bold;
 }
+
+.dem-d{
+    width: 100%;
+}
+
+.dem-m{
+    width: 100%;
+}
+
+.version-box{
+    margin: 50px 20px 50px 20px;
+    background-color: lightgray;
+}

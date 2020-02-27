@@ -1,6 +1,16 @@
 $(document).ready(function(){
 
-    //Set section widths
+    let testNum = localStorage['testNum'];
+    let navType = localStorage['navOrder'][testNum];
+
+    if(navType == 1){
+        enhance();
+    }
+
+    function enhance(){
+        $('.nav-all').css('display', 'block');
+
+        //Set section widths
     let screenWidth = $(window).width();
 
     let s1 = $('#division2').offset().top - $('#division1').offset().top;
@@ -36,12 +46,12 @@ $(document).ready(function(){
         s6/sTotal * screenWidth
     );
 
-    $('#1').css('width', (s1/sTotal * screenWidth) - 6);
-    $('#2').css('width', (s2/sTotal * screenWidth) - 6);
-    $('#3').css('width', (s3/sTotal * screenWidth) - 6);
-    $('#4').css('width', (s4/sTotal * screenWidth) - 6);
-    $('#5').css('width', (s5/sTotal * screenWidth) - 6);
-    $('#6').css('width', (s6/sTotal * screenWidth) - 7);
+    $('#1').css('width', (s1/sTotal * screenWidth) - 2);
+    $('#2').css('width', (s2/sTotal * screenWidth) - 2);
+    $('#3').css('width', (s3/sTotal * screenWidth) - 2);
+    $('#4').css('width', (s4/sTotal * screenWidth) - 2);
+    $('#5').css('width', (s5/sTotal * screenWidth) - 2);
+    $('#6').css('width', (s6/sTotal * screenWidth) - 2);
 
     //Set triangle width if section width less that 30px
     for(let x = 1; x < 7; x++){
@@ -163,6 +173,7 @@ $(document).ready(function(){
         axis: 'x',
         scroll: 'true'
     });*/
+    }
 
 });
 
