@@ -218,18 +218,18 @@
             var order = localStorage.getItem('order').split(',');
             var testNum = localStorage.getItem('testNum');
             var type = localStorage.getItem('type');
-            testNum++;
-            var next = order[testNum];
-
             let navOrder = localStorage.getItem('navOrder').split(',');
             let navType = navOrder[testNum];
+            $('#navType').val(navType);
+            testNum++;
+            var next = order[testNum];
 
             localStorage.setItem('testNum', testNum);
 
             $('#version').val('1'); 
             $('#next').val(next);
             $('#type').val(type);
-            $('#navType').val(navType);
+            
         });
     </script>
     </body>
