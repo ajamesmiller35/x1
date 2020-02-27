@@ -9,8 +9,13 @@ var startTime= 0, stopTime = 0, totalTime = 0, timeCount = 0;
       stopTime = Date.now();
       totalTime = stopTime - startTime;
 
+        let testNum = localStorage.getItem('testNum');
+        let navOrder = localStorage.getItem('navOrder').split(',');
+        let navType = navOrder[testNum];
+
       var data = {
           version: version,
+          navType: navType,
           type: type,
           totalTime: totalTime,
           distanceUp: distanceUp,

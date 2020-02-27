@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
-    let testNum = localStorage['testNum'];
-    let navType = localStorage['navOrder'][testNum];
+    let testNum = localStorage.getItem('testNum');
+    let navOrder = localStorage.getItem('navOrder').split(',');
+    let navType = navOrder[testNum];
 
     if(navType == 1){
         enhance();

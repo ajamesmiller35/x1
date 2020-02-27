@@ -203,6 +203,7 @@
         </div>
         <input type="text" name="next" id="next" class="hidden">
         <input type="text" name="type" id="type" class="hidden">
+        <input type="text" name="navType" id="navType" class="hidden">
         <button class="goButton" type="submit">Continue</button>
     </form>
 
@@ -212,7 +213,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
-       $(document).ready(function(){
+        $(document).ready(function(){
 
             var order = localStorage.getItem('order').split(',');
             var testNum = localStorage.getItem('testNum');
@@ -220,11 +221,15 @@
             testNum++;
             var next = order[testNum];
 
+            let navOrder = localStorage.getItem('navOrder').split(',');
+            let navType = navOrder[testNum];
+
             localStorage.setItem('testNum', testNum);
 
             $('#version').val('1'); 
             $('#next').val(next);
             $('#type').val(type);
+            $('#navType').val(navType);
         });
     </script>
     </body>

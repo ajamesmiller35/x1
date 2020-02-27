@@ -202,6 +202,7 @@
         </div>
         <input type="text" name="next" id="next" class="hidden">
         <input type="text" name="type" id="type" class="hidden">
+        <input type="text" name="navType" id="navType" class="hidden">
         <button class="goButton" type="submit">Continue</button>
     </form>
 
@@ -219,11 +220,15 @@
             testNum++;
             var next = order[testNum];
 
+            let navOrder = localStorage.getItem('navOrder').split(',');
+            let navType = navOrder[testNum];
+
             localStorage.setItem('testNum', testNum);
 
             $('#version').val('0'); 
             $('#next').val(next);
             $('#type').val(type);
+            $('#navType').val(navType);
         });
     </script>
     </body>
