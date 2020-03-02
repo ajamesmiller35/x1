@@ -1,8 +1,0 @@
-{"id":"5e5c856a70924","age":"","gender":null,"nationality":"USA","nationalityOther":"","usage":null,"usageAmazon":null}
-{"isMobile":false,"viewHeight":1307,"viewWidth":2560}
-{"version":0,"navType":"0","type":"d","totalTime":3328,"distanceUp":0,"distanceDown":9100}
-
-{"version":"0","problem":"No","problem-explanation":"","type":"d","navType":"0"}
-
-
-{"version":"0","type":"d","navType":"0"}

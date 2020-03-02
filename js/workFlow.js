@@ -19,17 +19,23 @@ var startTime= 0, stopTime = 0, totalTime = 0, timeCount = 0;
           type: type,
           totalTime: totalTime,
           distanceUp: distanceUp,
-          distanceDown: distanceDown
+          distanceDown: distanceDown,
+          navClicks: navClicks,
+          item1: $('#item1').val(),
+          item2: $('#item2').val(),
+          item3: $('#item3').val()
       };
 
       data = JSON.stringify(data);
+
+      console.log(data);
 
       $.ajax({
           url: '../../writeResults.php',
           method: 'POST',
           data: {data: data}
       }).done(function(){
-        location.href="../review.php";
+        location.href="../survey.php";
         });
 
     });

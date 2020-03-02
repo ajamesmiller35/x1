@@ -1,0 +1,9 @@
+{"id":"5e5d534f1c3ff","age":"","gender":null,"nationality":"USA","nationalityOther":"","usage":null,"usageAmazon":null}
+{"isMobile":false,"viewHeight":949,"viewWidth":1663}
+{"version":1,"navType":"1","type":"d","totalTime":10148,"distanceUp":5526,"distanceDown":15399,"navClicks":4,"item1":null,"item2":null,"item3":null}
+
+{"version":"1","problem":"No","problem-explanation":"","type":"d","navType":"1"}
+
+{"version":0,"navType":"0","type":"d","totalTime":9473,"distanceUp":0,"distanceDown":9500,"navClicks":0,"item1":null,"item2":null,"item3":null}
+
+{"version":"0","problem":"No","problem-explanation":"","type":"d","navType":"0"}

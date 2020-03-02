@@ -17,10 +17,22 @@
   </head>
   <body>
   <form method="POST" action="../surveyWrite.php">
+    <input type="text" name="version" id="version" class="hidden">
     <h3 id="survey-title">How did it go?</h3>
-    <h5>Please fill out the form below based on your experience with the Amazon product page for the KitchenAid Mixer.</h5>
+    <h5>Please fill out the form below based on your experience with the Amazon product page for the DEWALT Drill.</h5>
+    <div class="horizontal-divider"></div>
+        <div class="form-group">
+            <label for="problem">Did you experience any technical difficulties?</label><br>
+            <select class="form-control" id="problem" name="problem">
+                <option selected>No</option>
+                <option>Yes</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="problem-explanation">If yes, please explain:</label>
+            <textarea class="form-control" id="problem-explanation" rows="3" name="problem-explanation"></textarea>
+        </div>
     <h5>For the following statements, select the option most closely matching how you feel.</h5>
-        <input type="text" name="version" id="version" class="hidden">
         <div class="form-group">
                 <h6>I have the knowledge necessary to use the navigation features of this webpage.</h6>
                 <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">

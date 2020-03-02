@@ -13349,38 +13349,78 @@ votes</span>
 
 
 <div id="finished">
-  <h1>Finished?</h1>
-  <h3>Are you sure you remember all three items?</h3>
+  <h1>Enter your items here.</h1>
+  <form id="item-form">
+    <h5>Please fill out the multiple choice form below:</h5>
+        <div class="form-group">
+          <label for="item1">How many different storage size options are available for this product?</label>
+          <select class="form-control" id="item1" name="item1">
+              <option disabled selected>Please choose...</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>I could not find this information</option>
+          </select>
+      </div>
+      <div class="form-group">
+          <label for="item2">Compared to similar items, how many items have more ratings?</label>
+          <select class="form-control" id="item2" name="item3">
+              <option disabled selected>Please choose...</option>
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>I could not find this information</option>
+          </select>
+      </div>
+      <div class="form-group">
+          <label for="item3">What is the average star rating of reviewers given to this item for "Battery life?"</label>
+          <select class="form-control" id="item3" name="item3">
+              <option disabled selected>Please choose...</option>
+              <option>3.2</option>
+              <option>4.1</option>
+              <option>4.6</option>
+              <option>I could not find this information</option>
+          </select>
+      </div>
+    </form>
   <button id="continue-button">Continue</button>
 </div><!--finished-->
 
 <style>
 
-#finished{
-  height: 400px;
-  width: 90%;
-  background-color: red;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#finished h1, #finished h3{
-  padding-top: 50px;
-  text-align: center;
-}
-
-#continue-button{
-  margin-top: 50px;
-  width: 50%;
-  height: 50px;
-  font-size: 2em;
-  font-weight: bold;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-</style>
+  .form-group{
+    margin-top: 10px;
+  }
+  
+  #finished{
+    width: 90%;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+  }
+  
+  #finished h1, #finished h3{
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  #continue-button{
+    margin-top: 50px;
+    width: 50%;
+    height: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  #item-form{
+    margin-left: 10%;
+  }
+  
+  </style>
 
 <div class=nav-footer-line></div>
  
@@ -15741,7 +15781,7 @@ Prime Now<br> <span class=navFooterDescText>FREE 2-hour Delivery<br> on Everyday
     <li><h4>3. What is the average star rating of reviewers given to this item for "Battery life?"</h4></li>
   </ol>
   <h3>When you understand the items you are supposed to find, press begin.</h3>
-  <h3>Remember, there is no rush. Take your time.</h3>
+  <h3>Remember, there is no rush. Take your time. As you find each item on the page, use what you find to fill out the form at the end of the page.</h3>
   <button id="begin">Begin</button>
 </div>
 
@@ -15809,9 +15849,11 @@ ol{
   //set variables unique to page
   var version = 1;
   var type = 'd';
+  var navClicks = 0;
 
   $('.scrollTo').on('click', function(e) {
     e.preventDefault();
+    navClicks++;
     var target = $(this).attr('href');
       $('html, body').animate({
         scrollTop: ($(target).offset().top - $('header').height() )
