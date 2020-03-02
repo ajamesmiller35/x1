@@ -47,7 +47,7 @@
     <script src="js/getCookie.js"></script>
     <script>console.log(getCookie('id'))
       var isMobile = false; //initiate as false
-      let type = localStorage['type'];
+      let type = localStorage.getItem('type');
 
       if(type == 'm'){
         $('.dem-m').removeClass('hidden');

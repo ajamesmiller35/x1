@@ -10,7 +10,9 @@
     if(isset($_POST['nationality'])){
         $nationality = $_POST['nationality'];
     }
-    
+    if(isset($_POST['nationality-other'])){
+        $nationalityOther = $_POST['nationality-other'];
+    }
     if(isset($_POST['usage'])){
         $usage = $_POST['usage'];
     }
@@ -24,6 +26,7 @@
     $participant->age = $age;
     $participant->gender = $gender;
     $participant->nationality = $nationality;
+    $participant->nationalityOther = $nationalityOther;
     $participant->usage = $usage;
     $participant->usageAmazon = $usageAmazon;
     

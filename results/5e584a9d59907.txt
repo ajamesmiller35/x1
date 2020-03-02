@@ -1,5 +1,0 @@
-{"id":"5e584a9d59907","age":"","gender":"","nationality":"","usage":"Choose...","usageAmazon":"Choose..."}
-{"isMobile":false,"viewHeight":949,"viewWidth":1663}
-{"version":0,"navType":"0","type":"d","totalTime":5624,"distanceUp":300,"distanceDown":9700}
-
-{"version":"0","problem":"No","problem-explanation":"","type":"d","navType":"0"}

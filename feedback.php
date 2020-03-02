@@ -19,13 +19,22 @@
 
     <form method="POST" action="./feedbackWrite.php">
     <h3 id="survey-title">What did you think?</h3>
+    <div class="version-box">
+        <h5>Version 1:</h5>
+        <img class="hidden dem-d" src="images/nav-dem0-d.png" alt="">
+        <img class="hidden dem-m" src="images/nav-dem0-m.png" alt="">
+      </div>
+      <div class="version-box">
+        <h5>Version 2:</h5>
+        <img class="hidden dem-d" src="images/nav-dem1-d.png" alt="">
+        <img class="hidden dem-m" src="images/nav-dem1-m.png" alt="">
+      </div>
         <div class="form-group">
-            <label for="problem-explanation">What did you think of the added navigation features? How would you improve them? (optional)</label>
-            <textarea class="form-control" id="problem-explanation" name="problem-explanation" rows="3"></textarea>
+            <label for="feedback"><h6>Considering the two versions included in this study, what did you think of the additional navigation features included in Version 2? How could they be improved? (optional)</h6></label>
+            <textarea class="form-control" id="feedback" name="feedback" rows="4"></textarea>
         </div>
-    
         
-        <button class="goButton" type="submit">Continue</button>
+        <button id="feedback-button" class="goButton" type="submit">Continue</button>
     </form>
 
     <!-- Optional JavaScript -->
@@ -47,7 +56,14 @@
             $('#version').val('1'); 
             $('#next').val(next);
             $('#type').val(type);
-        });
+
+            if(type == 'm'){
+            $('.dem-m').removeClass('hidden');
+            }
+            else{
+            $('.dem-d').removeClass('hidden');
+            }
+            });
     </script>
     </body>
 </html>

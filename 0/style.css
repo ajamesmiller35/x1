@@ -7,9 +7,6 @@ form{
     margin-bottom: 100px;
 }
 
-input{
-    width: 75%;
-}
 
 .hidden{
     display: none;
@@ -24,4 +21,8 @@ input{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.btn-group-vertical{
+    width: 100%;
 }

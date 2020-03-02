@@ -16,189 +16,190 @@
     <title>Survey</title>
   </head>
   <body>
-    <form method="POST" action="../surveyWrite.php">
+  <form method="POST" action="../surveyWrite.php">
     <h3 id="survey-title">How did it go?</h3>
-    <h5>Please fill out the form below based on your experience with the Amazon product page for the DEWALT drill.</h5>
-    <h6>For the following statements, select the option most closely matching how you feel.</h6>
+    <h5>Please fill out the form below based on your experience with the Amazon product page for the KitchenAid Mixer.</h5>
+    <h5>For the following statements, select the option most closely matching how you feel.</h5>
         <input type="text" name="version" id="version" class="hidden">
         <div class="form-group">
-                <label for="s1">I have the knowledge necessary to use the navigation features of this webpage.</label>
-                <select class="form-control" id="s1" name="s1">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option> 
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>I have the knowledge necessary to use the navigation features of this webpage.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s1" id="s1" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s1" id="s1" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s1" id="s1" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s1" id="s1" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s1" id="s1" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s1" id="s1" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s1" id="s1" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s2">Using the navigation features was a pleasurable experience.</label>
-                <select class="form-control" id="s2" name="s2">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>Using the navigation features was a pleasurable experience.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s2" id="s2" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s2" id="s2" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s2" id="s2" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s2" id="s2" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s2" id="s2" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s2" id="s2" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s2" id="s2" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s3">It would be preferable for me if websites included these features in the future.</label>
-                <select class="form-control" id="s3" name="s3">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>It would be preferable for me if websites included these features in the future.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s3" id="s3" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s3" id="s3" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s3" id="s3" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s3" id="s3" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s3" id="s3" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s3" id="s3" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s3" id="s3" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s4">The navigation features of this webpage helped me locate information.</label>
-                <select class="form-control" id="s4" name="s4">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>The navigation features of this webpage helped me locate information.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s4" id="s4" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s4" id="s4" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s4" id="s4" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s4" id="s4" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s4" id="s4" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s4" id="s4" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s4" id="s4" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
+        </div>       
+        <div class="form-group">
+                <h6>It was simple for me to navigate the webpage using the navigation features included.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s5" id="s5" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s5" id="s5" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s5" id="s5" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s5" id="s5" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s5" id="s5" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s5" id="s5" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s5" id="s5" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s5">It was simple for me to navigate the webpage using the navigation features included.</label>
-                <select class="form-control" id="s5" name="s5">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>The navigation features of this webpage were fun to use.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s6" id="s6" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s6" id="s6" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s6" id="s6" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s6" id="s6" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s6" id="s6" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s6" id="s6" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s6" id="s6" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s6">The navigation features of this webpage were fun to use.</label>
-                <select class="form-control" id="s6" name="s6">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
-        </div><div class="form-group">
-                <label for="s7">I could get help from others if I had difficulty using the navigation features of this webpage</label>
-                <select class="form-control" id="s7" name="s7">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>I could get help from others if I had difficulty using the navigation features of this webpage.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s7" id="s7" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s7" id="s7" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s7" id="s7" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s7" id="s7" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s7" id="s7" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s7" id="s7" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s7" id="s7" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s8">I enjoyed using the navigation features on this webpage.</label>
-                <select class="form-control" id="s8" name="s8">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>I enjoyed using the navigation features on this webpage.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s8" id="s8" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s8" id="s8" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s8" id="s8" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s8" id="s8" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s8" id="s8" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s8" id="s8" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s8" id="s8" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s9">Learning how to use the navigation features of this webpage was easy for me.</label>
-                <select class="form-control" id="s9" name="s9">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>Learning how to use the navigation features of this webpage was easy for me.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s9" id="s9" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s9" id="s9" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s9" id="s9" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s9" id="s9" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s9" id="s9" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s9" id="s9" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s9" id="s9" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s10">I have used navigation features on other websites that were similar to this one.</label>
-                <select class="form-control" id="s10" name="s10">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>I have used navigation features on other websites that were similar to this one.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s10" id="s10" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s10" id="s10" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s10" id="s10" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s10" id="s10" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s10" id="s10" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s10" id="s10" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s10" id="s10" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s11">My interaction with the navigation features of the webpage was easy and understandable.</label>
-                <select class="form-control" id="s11" name="s11">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>My interaction with the navigation features of the webpage was easy and understandable.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s11" id="s11" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s11" id="s11" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s11" id="s11" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s11" id="s11" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s11" id="s11" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s11" id="s11" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s11" id="s11" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s12">I would be more likely to use a website in the future if it included these navigation features.</label>
-                <select class="form-control" id="s12" name="s12">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>I would be more likely to use a website in the future if it included these navigation features.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s12" id="s12" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s12" id="s12" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s12" id="s12" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s12" id="s12" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s12" id="s12" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s12" id="s12" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s12" id="s12" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s13">I would prefer using websites that included these navigation features.</label>
-                <select class="form-control" id="s13" name="s13">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>I would prefer using websites that included these navigation features.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s13" id="s13" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s13" id="s13" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s13" id="s13" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s13" id="s13" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s13" id="s13" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s13" id="s13" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s13" id="s13" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s14">The navigation features of this webpage increased my chances of finding what I was looking for.</label>
-                <select class="form-control" id="s14" name="s14">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>The navigation features of this webpage increased my chances of finding what I was looking for.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s14" id="s14" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s14" id="s14" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s14" id="s14" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s14" id="s14" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s14" id="s14" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s14" id="s14" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s14" id="s14" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <div class="form-group">
-                <label for="s15">The navigation features of this webpage were useful for finding what I was looking for.</label>
-                <select class="form-control" id="s15" name="s15">
-                    <option value="1">Strongly Disagree</option>
-                    <option value="2">Disagree</option>
-                    <option value="3">Somewhat Disagree</option>
-                    <option selected value="4">Neither Agree nor Disagree</option>
-                    <option value="5">Somewhat Agree</option>
-                    <option value="6">Agree</option>
-                    <option value="7">Strongly Agree</option>
-                </select>
+                <h6>The navigation features of this webpage were useful for finding what I was looking for.</h6>
+                <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary"><input type="radio" name="s15" id="s15" value="1" autocomplete="off"> Strongly Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s15" id="s15" value="2" autocomplete="off"> Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s15" id="s15" value="3" autocomplete="off"> Somewhat Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s15" id="s15" value="4" autocomplete="off"> Neither Agree nor Disagree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s15" id="s15" value="5" autocomplete="off"> Somewhat Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s15" id="s15" value="6" autocomplete="off"> Agree </label>
+                    <label class="btn btn-secondary"><input type="radio" name="s15" id="s15" value="7" autocomplete="off"> Strongly Agree </label>
+                </div>
         </div>
         <input type="text" name="next" id="next" class="hidden">
         <input type="text" name="type" id="type" class="hidden">
@@ -211,6 +212,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../js/adjust.js"></script>
     <script>
         $(document).ready(function(){
 
