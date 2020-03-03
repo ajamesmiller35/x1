@@ -1,0 +1,3 @@
+{"id":"5e5d890006f0e","age":"37","gender":"M","nationality":"Other","nationalityOther":"Italy","usage":"8+","usageAmazon":"3"}
+{"isMobile":true,"viewHeight":702,"viewWidth":375}
+{"version":1,"navType":"0","type":"m","totalTime":137483,"distanceUp":23244,"distanceDown":35332,"navClicks":0,"item1":"1","item2":"2","item3":"I could not find this information"}

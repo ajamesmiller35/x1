@@ -1,0 +1,3 @@
+{"id":"5e5d7d3093766","age":"32","gender":"M","nationality":"USA","nationalityOther":"","usage":"2-4","usageAmazon":"4"}
+{"isMobile":false,"viewHeight":610,"viewWidth":1263}
+{"version":0,"navType":"0","type":"m","totalTime":48438,"distanceUp":363.9998092651367,"distanceDown":10893.999809265137,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"I could not find this information"}

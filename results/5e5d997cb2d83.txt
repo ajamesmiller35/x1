@@ -1,0 +1,17 @@
+{"id":"5e5d997cb2d83","age":"31","gender":"F","nationality":"USA","nationalityOther":"","usage":"4-8","usageAmazon":"4"}
+{"isMobile":false,"viewHeight":686,"viewWidth":1440}
+{"version":1,"navType":"1","type":"d","totalTime":128607,"distanceUp":25803,"distanceDown":35662,"navClicks":0,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"7","s2":"7","s3":"7","s4":"6","s5":"7","s6":"4","s7":"1","s8":"6","s9":"7","s10":"7","s11":"7","s12":"6","s13":"7","s14":"6","s15":"6","type":"d","navType":"1"}
+
+{"version":0,"navType":"0","type":"d","totalTime":68935,"distanceUp":21911,"distanceDown":31369,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"23"}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"7","s2":"4","s3":"4","s4":"4","s5":"6","s6":"4","s7":"1","s8":"4","s9":"7","s10":"7","s11":"7","s12":"4","s13":"4","s14":"4","s15":"4","type":"d","navType":"0"}
+
+{"version":0,"type":"d","totalTime":7738,"distanceUp":797,"distanceDown":10485,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"23"}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"7","s2":"5","s3":"4","s4":"4","s5":"7","s6":"4","s7":"1","s8":"4","s9":"7","s10":"7","s11":"7","s12":"4","s13":"4","s14":"3","s15":"4","type":"d","navType":""}
+
+{"version":0,"type":"d","totalTime":10743,"distanceUp":0,"distanceDown":9809,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"23"}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"7","s2":"5","s3":"4","s4":"4","s5":"7","s6":"4","s7":"1","s8":"4","s9":"7","s10":"7","s11":"7","s12":"4","s13":"4","s14":"3","s15":"3","type":"d","navType":""}

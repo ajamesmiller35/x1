@@ -1,0 +1,12 @@
+{"id":"5e5d972633240","age":"61","gender":"M","nationality":"USA","nationalityOther":"","usage":"0-1","usageAmazon":"2"}
+{"isMobile":true,"viewHeight":769,"viewWidth":412}
+{"version":0,"navType":"1","type":"m","totalTime":202545,"distanceUp":1709.713623046875,"distanceDown":14419.713623046875,"navClicks":0,"item1":null,"item2":null,"item3":null}
+
+{"version":"0","problem":"No","problem-explanation":"","s2":"4","s3":"5","s4":"5","s5":"6","s6":"4","s7":"5","s8":"4","s9":"5","s10":"2","s11":"5","s13":"5","s14":"6","s15":"6","type":"m","navType":"1"}
+
+{"version":1,"navType":"0","type":"m","totalTime":101101,"distanceUp":43.42919921875,"distanceDown":12814.57177734375,"navClicks":0,"item1":null,"item2":null,"item3":null}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"6","s2":"4","s3":"5","s4":"5","s5":"6","s6":"4","s7":"5","s8":"4","s9":"6","s10":"3","s11":"5","s12":"4","s13":"5","s14":"5","s15":"5","type":"m","navType":"0"}
+
+
+{"feedback":""}

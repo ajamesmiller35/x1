@@ -1,0 +1,12 @@
+{"id":"5e5d9419b99ec","age":"38","gender":"F","nationality":"USA","nationalityOther":"","usage":"2-4","usageAmazon":"4"}
+{"isMobile":false,"viewHeight":653,"viewWidth":946}
+{"version":0,"navType":"1","type":"m","totalTime":106795,"distanceUp":28631,"distanceDown":39234,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"I could not find this information"}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"6","s2":"6","s3":"6","s4":"6","s5":"6","s6":"6","s7":"4","s8":"6","s9":"6","s10":"1","s11":"6","s12":"4","s13":"4","s14":"6","s15":"6","type":"m","navType":"1"}
+
+{"version":1,"navType":"0","type":"m","totalTime":43008,"distanceUp":7354,"distanceDown":23813,"navClicks":0,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"6","s2":"3","s3":"4","s4":"3","s5":"3","s6":"3","s7":"4","s8":"4","s9":"6","s10":"6","s11":"6","s12":"4","s13":"4","s14":"3","s15":"3","type":"m","navType":"0"}
+
+
+{"feedback":"Version 2 allowed me to access the information on the page very quickly, which helped to cut through page clutter.  "}

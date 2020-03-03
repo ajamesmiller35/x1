@@ -1,0 +1,5 @@
+{"id":"5e5d702fc9df5","age":"38","gender":"F","nationality":"USA","nationalityOther":"","usage":"4-8","usageAmazon":"4"}
+{"isMobile":true,"viewHeight":642,"viewWidth":375}
+{"version":1,"navType":"0","type":"m","totalTime":105785,"distanceUp":24645,"distanceDown":36733,"navClicks":0,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"7","s2":"2","s3":"6","s4":"2","s5":"4","s6":"3","s7":"4","s8":"4","s9":"6","s10":"6","s11":"6","s12":"4","s13":"4","s14":"4","s15":"4","type":"m","navType":"0"}

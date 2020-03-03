@@ -1,0 +1,12 @@
+{"id":"5e5d7a7cc5d7b","age":"35","gender":"F","nationality":"Saudi Arabia","nationalityOther":"","usage":"4-8","usageAmazon":"4"}
+{"isMobile":true,"viewHeight":734,"viewWidth":375}
+{"version":1,"navType":"1","type":"m","totalTime":110572,"distanceUp":3236,"distanceDown":15250,"navClicks":1,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"6","s2":"5","s3":"4","s4":"3","s5":"4","s6":"3","s7":"5","s8":"4","s9":"6","s10":"2","s11":"4","s12":"4","s13":"4","s14":"4","s15":"3","type":"m","navType":"1"}
+
+{"version":0,"navType":"0","type":"m","totalTime":91752,"distanceUp":9169,"distanceDown":21281,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"I could not find this information"}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"6","s2":"4","s3":"4","s4":"4","s5":"5","s6":"4","s7":"4","s8":"4","s9":"5","s10":"5","s11":"5","s12":"4","s13":"4","s14":"3","s15":"4","type":"m","navType":"0"}
+
+
+{"feedback":""}

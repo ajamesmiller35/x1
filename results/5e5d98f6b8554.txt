@@ -1,0 +1,12 @@
+{"id":"5e5d98f6b8554","age":"43","gender":"F","nationality":"USA","nationalityOther":"","usage":"4-8","usageAmazon":"5"}
+{"isMobile":true,"viewHeight":786,"viewWidth":414}
+{"version":0,"navType":"0","type":"m","totalTime":176983,"distanceUp":14503,"distanceDown":26266,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"I could not find this information"}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"7","s2":"5","s3":"5","s4":"3","s5":"3","s6":"3","s7":"1","s8":"3","s9":"5","s10":"5","s11":"5","s12":"5","s13":"5","s14":"5","s15":"5","type":"m","navType":"0"}
+
+{"version":1,"navType":"1","type":"m","totalTime":151562,"distanceUp":16054,"distanceDown":28299,"navClicks":5,"item1":"I could not find this information","item2":"I could not find this information","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"7","s2":"1","s3":"1","s4":"1","s5":"1","s6":"1","s7":"1","s8":"1","s9":"4","s10":"5","s11":"2","s12":"1","s13":"1","s14":"1","s15":"1","type":"m","navType":"1"}
+
+
+{"feedback":"I use daily. I know where to go to find the info requested but could not find with version 2, even though logically broken out by task at the top of the page. I\u2019m fast at finding info and the change slowed me down. I would say consider the user task and put the next step in front of them, not at the top."}

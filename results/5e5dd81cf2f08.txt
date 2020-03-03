@@ -1,0 +1,2 @@
+{"id":"5e5dd81cf2f08","age":"67","gender":"M","nationality":"USA","nationalityOther":"","usage":"8+","usageAmazon":"3"}
+{"isMobile":true,"viewHeight":702,"viewWidth":375}
