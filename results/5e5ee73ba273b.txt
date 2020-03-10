@@ -1,0 +1,5 @@
+{"id":"5e5ee73ba273b","age":"33","gender":"M","nationality":"Italy","nationalityOther":null,"usage":"8+","usageAmazon":"2"}
+{"isMobile":false,"viewHeight":1191,"viewWidth":2000}
+{"version":1,"navType":"1","type":"d","totalTime":95790,"distanceUp":26115.33285522461,"distanceDown":36082.66586303711,"navClicks":3,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"7","s2":"4","s3":"4","s4":"4","s5":"4","s6":"2","s7":"4","s8":"3","s9":"6","s10":"4","s11":"6","s12":"4","s13":"3","s14":"4","s15":"3","type":"d","navType":"1"}

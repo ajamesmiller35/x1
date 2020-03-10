@@ -1,0 +1,12 @@
+{"id":"5e5ee1d8439e6","age":"26","gender":"F","nationality":"Spain","nationalityOther":null,"usage":"2-4","usageAmazon":"2"}
+{"isMobile":true,"viewHeight":719,"viewWidth":393}
+{"version":1,"navType":"1","type":"m","totalTime":178284,"distanceUp":56846.18273925781,"distanceDown":68934.18273925781,"navClicks":4,"item1":"3","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"6","s2":"6","s3":"7","s4":"7","s5":"7","s6":"6","s7":"2","s8":"6","s9":"6","s10":"6","s11":"7","s12":"7","s13":"7","s14":"7","s15":"7","type":"m","navType":"1"}
+
+{"version":0,"navType":"0","type":"m","totalTime":232204,"distanceUp":19888.36456298828,"distanceDown":31838.18292236328,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"Yes it does."}
+
+{"version":"0","problem":"Yes","problem-explanation":"I could not find the information","s1":"2","s2":"1","s3":"1","s4":"2","s5":"2","s6":"2","s7":"6","s8":"2","s9":"2","s10":"6","s11":"2","s12":"2","s13":"2","s14":"2","s15":"2","type":"m","navType":"0"}
+
+
+{"feedback":"Using version 2 it's useful and helpful, since you feel you have the website under your control (very important when people want to buy something). It makes me feel comfortable and trust the Amazon website. The improvement could be to have more characteristics about the product in the navigation features "}

@@ -1,0 +1,9 @@
+{"id":"5e5eb175acfb8","age":"40","gender":"M","nationality":"China","nationalityOther":null,"usage":"8+","usageAmazon":"2"}
+{"isMobile":false,"viewHeight":639,"viewWidth":1210}
+{"version":0,"navType":"0","type":"m","totalTime":131389,"distanceUp":30600,"distanceDown":41209,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"No, just clutch settings."}
+{"version":0,"navType":"1","type":"m","totalTime":1461006,"distanceUp":41284,"distanceDown":51893,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"No, just clutch settings."}
+
+{"version":"0","problem":"No","problem-explanation":"first I never watch all the detail of one item, for instance, I don't care the name of the reviewer; second, the information I want to know depends on the item itself, for instance I don't care the weight of the notebook, I only want to know the configuration\uff08cpu\uff0cmemory\uff0cgraphic card); if I want to get what I want, I will crlt+f search in this page; finally, I believe the navigation would be better than nothing, but not sure which way is more effective searching or mapping, unless the navigation can map more accurately or change the way (change vertical way instead of horizon way? vertical is real map and most user's custom is vertical)","s1":"7","s2":"5","s3":"5","s4":"5","s5":"5","s6":"4","s7":"4","s8":"4","s9":"6","s10":"7","s11":"6","s12":"5","s13":"5","s14":"5","s15":"4","type":"m","navType":"1"}
+
+
+{"feedback":"change vertical way instead of horizon way? vertical is real map and most user's custom is vertical not horizon (the map of the vscode and other code edit applications is horizon, this map is real mapping )"}

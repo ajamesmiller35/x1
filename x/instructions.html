@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Welcome!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Thanks for participating!</h1>
+      <h3 class="text-center">Please read the following instructions:</h3>
+      <h3 class="text-red">IMPORTANT:</h3>
+      <p>For this experiment you will be asked to find three items of information on two different Amazon product webpages. Please note that for the purposes of this study links and buttons on the Amazon pages have been disabled except for the "Continue" button at the bottom of each page.  Each webpage has a short survey after.</p>
+      <p class="text-red text-bold">Pay close attention to the differences you notice in the navigation features of the web pages, and use them to your advantage if you can.</p>
+      <div class="version-box">
+        <h5>Version 1:</h5>
+        <p>One version of the site features a standard Amazon product page with standard navigation features.</p>
+        <img class="hidden dem-d" src="images/nav-dem0-d.png" alt="">
+        <img class="hidden dem-m" src="images/nav-dem0-m.png" alt="">
+      </div>
+      <div class="version-box">
+        <h5>Version 2:</h5>
+        <p>Another version of the site features an Amazon product page with additional navigation features. The site has an extra area of the navigation bar at the top of the screen that moves with you when you scroll. The grey and blue bar in the center acts as a map of each section of the page. The sections are labeled in the map to make them easier to find on the page. The map also features a moving yellow indicator that shows where you are on the page. The width of the yellow indicator matches the visible area of the page. Clicking or tapping each section in the map will automatically scroll you to that section of the page.</p>
+        <img class="hidden dem-d" src="images/nav-dem1-d.png" alt="">
+        <img class="hidden dem-m" src="images/nav-dem1-m.png" alt="">
+      </div>
+      <p>After you click "Continue" below a page will appear giving instructions on what to find on the page. You may be asked to find such things as an item's weight or storage capacity. When you understand what to find press "Begin" and the Amazon page will appear. There will be a form at the end of the page where you can enter each item as you find them. Find each item and use the information from each to fill out the form at the end. When you are finished, press "Continue."</p>
+      <p>When you understand these instructions press "Begin Experiment" to begin the experiment.</p>
+      
+      <button class="goButton" onclick="assignOrder()">Begin Experiment</button>
+    </div><!--container-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--<script src="https://theapicompany.com/deviceAPI.js"></script>-->
+    <script src="js/getDevice.js"></script>
+    <script src="js/assignOrder.js"></script>
+    <script src="js/getCookie.js"></script>
+    <script>console.log(getCookie('id'))
+      var isMobile = false; //initiate as false
+      let type = localStorage.getItem('type');
+
+      if(type == 'm'){
+        $('.dem-m').removeClass('hidden');
+      }
+      else{
+        $('.dem-d').removeClass('hidden');
+      }
+    </script>
+  </body>
+</html>

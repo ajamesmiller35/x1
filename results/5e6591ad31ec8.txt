@@ -1,0 +1,3 @@
+{"id":"5e6591ad31ec8","age":"59","gender":"F","nationality":"United States","nationalityOther":null,"usage":"8+","usageAmazon":"2"}
+{"isMobile":true,"viewHeight":489,"viewWidth":320}
+{"version":1,"navType":"0","type":"m","totalTime":280101,"distanceUp":302.22174072265625,"distanceDown":18307.555725097656,"navClicks":0,"item1":"2","item2":"I could not find this information","item3":"4.6"}

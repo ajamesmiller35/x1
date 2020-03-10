@@ -13,21 +13,7 @@
         }
       }
 
-    /*$results = file_get_contents('./' . $resultFiles[0]);
-
-    $results = explode("\n", $results);
-
-    var_dump($results);
-
-    $result1 = json_decode($results[0]);
-
-    echo '<br><br>';
-
-    var_dump($result1);
-
-    echo '<br><br>';
-
-    echo $result1->id;*/
+  
 
     for($j = 0; $j < sizeof($resultFiles); $j++){
         $results[$j] = file_get_contents('./' . $resultFiles[$j]);
@@ -43,7 +29,7 @@
 
     for($j = 0; $j < sizeof($results); $j++){
         for($z = 0; $z < sizeof($results[$j]); $z++){
-            if(isset($results[$j][$z]->complete)){
+            if(isset($results[$j][$z]->feedback)){
                 array_push($completeResults, $results[$j]);
             }
         }
@@ -54,6 +40,9 @@
         echo '<br><br>';
     }*/
 
+    ////-----------------VERSION 0----------------------
+
+    //Calculate Version 0 Totals
     $version0TotalTime = 0;
     $version0TotalDown = 0;
     $version0TotalUp = 0;
@@ -61,8 +50,8 @@
 
     for($j = 0; $j < sizeof($results); $j++){
         for($z = 0; $z < sizeof($results[$j]); $z++){
-            if(isset($results[$j][$z]->version)){
-                if($results[$j][$z]->version === '0' && isset($results[$j][$z]->trial)){
+            if(isset($results[$j][$z]->totalTime)){
+                if($results[$j][$z]->version == '0' && isset($results[$j][$z]->totalTime)){
                     $version0TotalTime += $results[$j][$z]->totalTime;
                     $version0TotalDown += $results[$j][$z]->distanceDown;
                     $version0TotalUp += $results[$j][$z]->distanceUp;
@@ -72,6 +61,49 @@
         }
     }
 
+    //Calculate Version 0 Nav 0 Totals
+    $version0TotalTime0 = 0;
+    $version0TotalDown0 = 0;
+    $version0TotalUp0 = 0;
+    $version0Count0 = 0;
+
+    for($j = 0; $j < sizeof($results); $j++){
+        for($z = 0; $z < sizeof($results[$j]); $z++){
+            if(isset($results[$j][$z]->totalTime) && isset($results[$j][$z]->navType)){
+                if($results[$j][$z]->version == '0' && $results[$j][$z]->navType == '0' && isset($results[$j][$z]->totalTime)){
+                    $version0TotalTime0 += $results[$j][$z]->totalTime;
+                    $version0TotalDown0 += $results[$j][$z]->distanceDown;
+                    $version0TotalUp0 += $results[$j][$z]->distanceUp;
+                    $version0Count0++;
+                }
+            }
+        }
+    }
+
+    //Calculate Version 0 Nav 1 Totals
+    $version0TotalTime1 = 0;
+    $version0TotalDown1 = 0;
+    $version0TotalUp1 = 0;
+    $version0Count1 = 0;
+    $version0NavClicks = 0;
+
+    for($j = 0; $j < sizeof($results); $j++){
+        for($z = 0; $z < sizeof($results[$j]); $z++){
+            if(isset($results[$j][$z]->totalTime) && isset($results[$j][$z]->navType)){
+                if($results[$j][$z]->version == '0' && $results[$j][$z]->navType == '1' && isset($results[$j][$z]->totalTime)){
+                    $version0TotalTime1 += $results[$j][$z]->totalTime;
+                    $version0TotalDown1 += $results[$j][$z]->distanceDown;
+                    $version0TotalUp1 += $results[$j][$z]->distanceUp;
+                    $version0Count1++;
+                    $version0NavClicks += $results[$j][$z]->navClicks;
+                }
+            }
+        }
+    }
+
+    ////-----------------VERSION 1----------------------
+
+    //Calculate Version 1 Totals
     $version1TotalTime = 0;
     $version1TotalDown = 0;
     $version1TotalUp = 0;
@@ -79,8 +111,8 @@
 
     for($j = 0; $j < sizeof($results); $j++){
         for($z = 0; $z < sizeof($results[$j]); $z++){
-            if(isset($results[$j][$z]->version)){
-                if($results[$j][$z]->version === '1' && isset($results[$j][$z]->trial)){
+            if(isset($results[$j][$z]->totalTime)){
+                if($results[$j][$z]->version == '1' && isset($results[$j][$z]->totalTime)){
                     $version1TotalTime += $results[$j][$z]->totalTime;
                     $version1TotalDown += $results[$j][$z]->distanceDown;
                     $version1TotalUp += $results[$j][$z]->distanceUp;
@@ -90,10 +122,46 @@
         }
     }
 
-    $version2TotalTime = 0;
-    $version2TotalDown = 0;
-    $version2TotalUp = 0;
-    $version2Count = 0;
+    //Calculate Version 1 Nav 0 Totals
+    $version1TotalTime0 = 0;
+    $version1TotalDown0 = 0;
+    $version1TotalUp0 = 0;
+    $version1Count0 = 0;
+
+    for($j = 0; $j < sizeof($results); $j++){
+        for($z = 0; $z < sizeof($results[$j]); $z++){
+            if(isset($results[$j][$z]->totalTime)){
+                if($results[$j][$z]->version == '1' && $results[$j][$z]->navType == '0' && isset($results[$j][$z]->totalTime)){
+                    $version1TotalTime0 += $results[$j][$z]->totalTime;
+                    $version1TotalDown0 += $results[$j][$z]->distanceDown;
+                    $version1TotalUp0 += $results[$j][$z]->distanceUp;
+                    $version1Count0++;
+                }
+            }
+        }
+    }
+
+    //Calculate Version 1 Nav 1 Totals
+    $version1TotalTime1 = 0;
+    $version1TotalDown1 = 0;
+    $version1TotalUp1 = 0;
+    $version1Count1 = 0;
+    $version1NavClicks = 0;
+
+    for($j = 0; $j < sizeof($results); $j++){
+        for($z = 0; $z < sizeof($results[$j]); $z++){
+            if(isset($results[$j][$z]->totalTime)){
+                if($results[$j][$z]->version == '1' && $results[$j][$z]->navType == '1' && isset($results[$j][$z]->totalTime)){
+                    $version1TotalTime1 += $results[$j][$z]->totalTime;
+                    $version1TotalDown1 += $results[$j][$z]->distanceDown;
+                    $version1TotalUp1 += $results[$j][$z]->distanceUp;
+                    $version1Count1++;
+                    $version1NavClicks += $results[$j][$z]->navClicks;
+                }
+            }
+        }
+    }
+    
     $es = array(
         0 => 0,
         1 => 0,
@@ -290,7 +358,7 @@
                 <td><h6>Total Participants: <?php echo sizeof($resultFiles) ?></h6></td>
                 <td><h6>Total Complete Results: <?php echo sizeof($completeResults) ?></h6></td>
                 <td><h6>Completion Percentage: <?php echo round(sizeof($completeResults)/sizeof($resultFiles)*100, 2) ?>%</h6></td>
-                <td><h6>Total Time Trials Completed: <?php echo $version0Count + $version1Count + $version2Count ?></h6></td>
+                <td><h6>Total Page Tests Completed: <?php echo $version0Count + $version1Count ?></h6></td>
             </tr>
             <tr>
                 
@@ -298,8 +366,8 @@
         </tbody>
     </table>
     <div class="row">
-        <div class="col-lg-4">
-        <h3>Version 0 Analysis (No Highlighting):</h3>
+        <div class="col-lg-6">
+        <h3>Version 0 Analysis:</h3>
         <table class="table">
             <tbody>
                 <tr>
@@ -328,9 +396,9 @@
                 </tr>
             </tbody>
         </table>
-        </div><!--col-lg-4-->
-        <div class="col-lg-4">
-            <h3>Version 1 Analysis (Scrolling Red Indicator):</h3>
+        </div><!--col-lg-6-->
+        <div class="col-lg-6">
+            <h3>Version 1 Analysis:</h3>
             <table class="table">
                 <tbody>
                     <tr>
@@ -359,38 +427,149 @@
                     </tr>
                 </tbody>
             </table>
-        </div><!--col-lg-4-->
-        <div class="col-lg-4">
-            <h3>Version 2 Analysis (Enlarged Text):</h3>
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td><h6>Average Time:</h6></td>
-                        <td><h6><?php echo round($version2TotalTime/$version2Count, 2); ?></h6></td>
-                    </tr>
-                    <tr>
-                        <td><h6>Average Up:</h6></td>
-                        <td><h6><?php echo round($version2TotalUp/$version2Count, 2); ?></h6></td>
-                    </tr>
-                    <tr>
-                        <td><h6>Average Down:</h6></td>
-                        <td><h6><?php echo round($version2TotalDown/$version2Count, 2); ?></h6></td>
-                    </tr>
-                    <tr>
-                        <td><h6>Up/Down Ratio:</h6></td>
-                        <td><h6><?php echo round(($version2TotalUp/$version2Count) / ($version2TotalDown/$version2Count), 5); ?></h6></td>
-                    </tr>
-                    <tr>
-                        <td><h6>Average Total Travel:</h6></td>
-                        <td><h6><?php echo round( (($version2TotalDown + $version2TotalUp)/$version2Count) , 2) ?></h6></td>
-                    </tr>
-                    <tr>
-                        <td><h6>N = </h6></td>
-                        <td><h6><?php echo $version2Count; ?></h6></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div><!--col-lg-4-->
+        </div><!--col-lg-6-->
+    </div><!--row-->
+    <div class="row">
+    <div class="col-lg-3">
+        <h3>Version 0 Nav 0:</h3>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><h6>Average Time:</h6></td>
+                    <td><h6><?php echo round($version0TotalTime0/$version0Count0, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Up:</h6></td>
+                    <td><h6><?php echo round($version0TotalUp0/$version0Count0, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Down:</h6></td>
+                    <td><h6><?php echo round($version0TotalDown0/$version0Count0, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Up/Down Ratio:</h6></td>
+                    <td><h6><?php echo round(($version0TotalUp0/$version0Count0) / ($version0TotalDown0/$version0Count0), 5); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Total Travel:</h6></td>
+                    <td><h6><?php echo round( (($version0TotalDown0 + $version0TotalUp0)/$version0Count0) , 2) ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Nav Clicks:  </h6></td>
+                    <td><h6><?php echo '0'; ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>N = </h6></td>
+                    <td><h6><?php echo $version0Count0; ?></h6></td>
+                </tr>
+            </tbody>
+        </table>
+        </div><!--col-lg-3-->
+        <div class="col-lg-3">
+        <h3>Version 0 Nav 1:</h3>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><h6>Average Time:</h6></td>
+                    <td><h6><?php echo round($version0TotalTime1/$version0Count1, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Up:</h6></td>
+                    <td><h6><?php echo round($version0TotalUp1/$version0Count1, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Down:</h6></td>
+                    <td><h6><?php echo round($version0TotalDown1/$version0Count1, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Up/Down Ratio:</h6></td>
+                    <td><h6><?php echo round(($version0TotalUp1/$version0Count1) / ($version0TotalDown1/$version0Count1), 5); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Total Travel:</h6></td>
+                    <td><h6><?php echo round( (($version0TotalDown1 + $version0TotalUp1)/$version0Count1) , 2) ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Nav Clicks:  </h6></td>
+                    <td><h6><?php echo $version0NavClicks; ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>N = </h6></td>
+                    <td><h6><?php echo $version0Count1; ?></h6></td>
+                </tr>
+            </tbody>
+        </table>
+        </div><!--col-lg-3-->
+        <div class="col-lg-3">
+        <h3>Version 0 Nav 0:</h3>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><h6>Average Time:</h6></td>
+                    <td><h6><?php echo round($version1TotalTime0/$version1Count0, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Up:</h6></td>
+                    <td><h6><?php echo round($version1TotalUp0/$version1Count0, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Down:</h6></td>
+                    <td><h6><?php echo round($version1TotalDown0/$version1Count0, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Up/Down Ratio:</h6></td>
+                    <td><h6><?php echo round(($version1TotalUp0/$version1Count0) / ($version1TotalDown0/$version1Count0), 5); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Total Travel:</h6></td>
+                    <td><h6><?php echo round( (($version1TotalDown0 + $version1TotalUp0)/$version1Count0) , 2) ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Nav Clicks:  </h6></td>
+                    <td><h6><?php echo '0'; ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>N = </h6></td>
+                    <td><h6><?php echo $version1Count0; ?></h6></td>
+                </tr>
+            </tbody>
+        </table>
+        </div><!--col-lg-3-->
+        <div class="col-lg-3">
+        <h3>Version 0 Nav 1:</h3>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><h6>Average Time:</h6></td>
+                    <td><h6><?php echo round($version1TotalTime1/$version1Count1, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Up:</h6></td>
+                    <td><h6><?php echo round($version1TotalUp1/$version1Count1, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Down:</h6></td>
+                    <td><h6><?php echo round($version1TotalDown1/$version1Count1, 2); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Up/Down Ratio:</h6></td>
+                    <td><h6><?php echo round(($version1TotalUp1/$version1Count1) / ($version1TotalDown1/$version1Count1), 5); ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Average Total Travel:</h6></td>
+                    <td><h6><?php echo round( (($version1TotalDown1 + $version1TotalUp1)/$version1Count1) , 2) ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>Nav Clicks:  </h6></td>
+                    <td><h6><?php echo $version1NavClicks; ?></h6></td>
+                </tr>
+                <tr>
+                    <td><h6>N = </h6></td>
+                    <td><h6><?php echo $version1Count1; ?></h6></td>
+                </tr>
+            </tbody>
+        </table>
+        </div><!--col-lg-3-->
     </div><!--row-->
     <div class="row">
         <div class="col-lg-12">

@@ -1,0 +1,12 @@
+{"id":"5e63c9c96e50c","age":"57","gender":"F","nationality":"United States","nationalityOther":null,"usage":"0-1","usageAmazon":"4"}
+{"isMobile":true,"viewHeight":560,"viewWidth":360}
+{"version":0,"navType":"1","type":"m","totalTime":108654,"distanceUp":9152.66683959961,"distanceDown":21502.66683959961,"navClicks":1,"item1":"9.1 pounds","item2":"The Wulph","item3":"No, just clutch settings."}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"7","s2":"7","s3":"7","s4":"7","s5":"7","s6":"7","s7":"6","s8":"7","s9":"7","s10":"4","s11":"7","s12":"4","s13":"7","s14":"7","s15":"7","type":"m","navType":"1"}
+
+{"version":1,"navType":"0","type":"m","totalTime":234414,"distanceUp":6495.00048828125,"distanceDown":18606.00048828125,"navClicks":0,"item1":"1","item2":"I could not find this information","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"6","s2":"6","s3":"7","s4":"4","s5":"5","s6":"6","s7":"6","s8":"6","s9":"6","s10":"4","s11":"5","s12":"6","s13":"5","s14":"5","s15":"3","type":"m","navType":"0"}
+
+
+{"feedback":"I was more familiar with the first version and product, so I found it was easier to use that one just for that reason. It would take a little more time to feel comfortable  using these features."}
