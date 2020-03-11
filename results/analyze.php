@@ -161,6 +161,13 @@
             }
         }
     }
+
+    for($j = 0; $j < sizeof($results); $j++){
+        for($z = 0; $z < sizeof($results[$j]); $z++){
+            var_dump($results[$j]);
+            echo '<br><br>';
+        }
+    }
     
     $es = array(
         0 => 0,
@@ -170,31 +177,15 @@
         4 => 0,
         5 => 0,
         6 => 0,
-        7 => array(
-            0 => 0,
-            1 => 0,
-            2 => 0,
-            3 => 0,
-        ),
-        8 => array(
-            0 => 0,
-            1 => 0,
-            2 => 0,
-            3 => 0,
-        ),
-        9 => array(
-            0 => 0,
-            1 => 0,
-            2 => 0,
-            3 => 0,
-        ),
-        10 => array(
-            0 => 0,
-            1 => 0,
-            2 => 0,
-            3 => 0,
-        )
-
+        7 => 0,
+        8 => 0,
+        9 => 0,
+        10 => 0,
+        11 => 0,
+        12 => 0,
+        13 => 0,
+        14 => 0,
+        15 => 0
     );
     
     $esChoice = array();
@@ -203,12 +194,7 @@
     for($j = 0; $j < sizeof($results); $j++){
         for($z = 0; $z < sizeof($results[$j]); $z++){
             if(isset($results[$j][$z]->version)){
-                if($results[$j][$z]->version === '2' && isset($results[$j][$z]->trial)){
-                    $version2TotalTime += $results[$j][$z]->totalTime;
-                    $version2TotalDown += $results[$j][$z]->distanceDown;
-                    $version2TotalUp += $results[$j][$z]->distanceUp;
-                    $version2Count++;
-                }
+                
             }
             if(isset($results[$j][$z]->s11)){
                 $es[0] += $results[$j][$z]->s1;
@@ -306,7 +292,7 @@
         for($j = 0; $j < sizeof($results); $j++){
             for($z = 0; $z < sizeof($results[$j]); $z++){
                 if(isset($results[$j][$z]->version)){
-                    if($results[$j][$z]->version == $n && isset($results[$j][$z]->distracted)){
+                    if($results[$j][$z]->version == $n && isset($results[$j][$z]->problem)){
                         if($results[$j][$z]->distracted == 'No'){
                             $distracted[$n][0]++;
                         }
@@ -333,6 +319,8 @@
             }
         }
     }
+
+    //var_dump($results);
 
 ?>
 
@@ -576,34 +564,16 @@
             <h3>Version 0 Survey</h3>
             <table class="table">
                 <tr>
-                    <td><p>At any time during the previous four information finding tasks were you interrupted by an outside distraction?</p></td>
-                    <td><p><?php echo 'No: ' . $distracted[0][0] ?></p></td>
-                    <td><p><?php echo 'Yes: ' . $distracted[0][1] ?></p></td>
+                    <td><h5>Question</h5></td>
+                    <td><h5>Nav Type 0</h5></td>
+                    <td><h5>Nav Type 1</h5></td>
+                    <td><h5>Total</h5></td>
                 </tr>
                 <tr>
-                    <td><p>At any time during the previous four information finding tasks did you forget or fail to understand what you were intended to find on the page?</p></td>
-                    <td><p><?php echo 'No: ' . $confused[0][0] ?></p></td>
-                    <td><p><?php echo 'Yes: ' . $confused[0][1] ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>The site design made it easy to find what I was looking for.</p></td>
-                    <td colspan="2"><p><?php echo round($ptq0[0]/$ptq0Total[0], 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>I was able to find what I was looking for very quickly on this site.</p></td>
-                    <td colspan="2"><p><?php echo round($ptq1[0]/$ptq1Total[0], 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>I liked the site design.</p></td>
-                    <td colspan="2"><p><?php echo round($ptq2[0]/$ptq2Total[0], 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>It was obvious when I found what I was looking for.</p></td>
-                    <td colspan="2"><p><?php echo round($ptq3[0]/$ptq3Total[0], 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>N = </p></td>
-                    <td colspan="2"><p><?php echo $ptq1Total[0]; ?></p></td>
+                    <td><p>Technical Difficulties:</p></td>
+                    <td>Yes: No:</td>
+                    <td>Yes: No:</td>
+                    <td>Yes: No:</td>
                 </tr>
             </table>
         </div><!--col-lg-12-->
