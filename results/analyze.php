@@ -251,11 +251,11 @@
         for($z = 0; $z < sizeof($results[$j]); $z++){
             
             if(isset($results[$j][$z]->s11)){
-                var_dump($results[$j][$z]);
+                //var_dump($results[$j][$z]);
 
                 //echo $results[$j][$z]->problem;
                 
-                echo "<br><br>";
+                //echo "<br><br>";
 
                 if($results[$j][$z]->problem == 'Yes'){
                     $es[16][0]++;
@@ -726,6 +726,384 @@
                             }
                         }
                     ?>
+                    <?php
+                        $i = 0;
+                        foreach($results as $r){
+
+                            /*var_dump($r);
+                            $i++;
+                            echo '<br>' . $i .'<br>';*/
+
+                            $typeFound = false;
+                            $enhancedVersion = '';
+
+                            foreach($results[$i] as $r1){
+                                if(isset($r1->id)){
+                                    echo $r1->id . ', ';
+                                }
+                                if(isset($r1->age)){
+                                    echo $r1->age . ', ';
+                                }
+                                if(isset($r1->gender)){
+                                    echo $r1->gender . ', ';
+                                }
+                                if(isset($r1->nationality)){
+                                    echo $r1->nationality . ', ';
+                                }
+                                if(isset($r1->usage)){
+                                    echo $r1->usage . ', ';
+                                }
+                                if(isset($r1->usageAmazon)){
+                                    echo $r1->usageAmazon . ', ';
+                                }
+
+                                if(isset($r1->type) && $typeFound == false){
+                                    echo $r1->type . ', ';
+                                    $typeFound = true;
+                                }
+
+                                if(isset($r1->version)){
+                                    if($r1->version == '0'){
+                                        if(isset($r1->s1)){
+                                            echo 'v' . $r1->version . ', ';
+                                            if($r1->navType == '0'){
+                                                $enhancedVersion = '1';
+                                            }
+                                            else{
+                                                $enhancedVersion = '0';
+                                            }
+                                            echo $r1->s1 . ', ';
+                                            if(isset($r1->s2)){
+                                                echo $r1->s2 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s3)){
+                                                echo $r1->s3 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s4)){
+                                                echo $r1->s4 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s5)){
+                                                echo $r1->s5 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s6)){
+                                                echo $r1->s6 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s7)){
+                                                echo $r1->s7 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s8)){
+                                                echo $r1->s8 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s9)){
+                                                echo $r1->s9 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s10)){
+                                                echo $r1->s10 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s11)){
+                                                echo $r1->s11 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s12)){
+                                                echo $r1->s12 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s13)){
+                                                echo $r1->s13 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s14)){
+                                                echo $r1->s14 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s15)){
+                                                echo $r1->s15 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+                            foreach($results[$i] as $r1){
+                                if(isset($r1->version)){
+                                    if($r1->version == '1'){
+                                        //echo $r1->version . ', ';
+                                        if(isset($r1->s1)){
+                                            echo 'v' . $r1->version . ', ';
+                                            echo $r1->s1 . ', ';
+                                            if(isset($r1->s2)){
+                                                echo $r1->s2 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s3)){
+                                                echo $r1->s3 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s4)){
+                                                echo $r1->s4 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s5)){
+                                                echo $r1->s5 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s6)){
+                                                echo $r1->s6 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s7)){
+                                                echo $r1->s7 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s8)){
+                                                echo $r1->s8 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s9)){
+                                                echo $r1->s9 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s10)){
+                                                echo $r1->s10 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s11)){
+                                                echo $r1->s11 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s12)){
+                                                echo $r1->s12 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s13)){
+                                                echo $r1->s13 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s14)){
+                                                echo $r1->s14 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                            if(isset($r1->s15)){
+                                                echo $r1->s15 . ', ';
+                                            }
+                                            else{
+                                                echo ' , ';
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            foreach($results[$i] as $r1){
+                                if(isset($r1->totalTime) && $r1->version == '0'){
+                                    echo 'v' . $r1->version . ', ';
+                                    echo $r1->totalTime . ', ';
+                                    if(isset($r1->distanceUp)){
+                                        echo $r1->distanceUp . ', ';
+                                    }
+                                    else{
+                                        echo ' , ';
+                                    }
+                                    if(isset($r1->distanceDown)){
+                                        echo $r1->distanceDown . ', ';
+                                    }
+                                    else{
+                                        echo ' , ';
+                                    }
+                                    if(isset($r1->navClicks)){
+                                        echo $r1->navClicks . ', ';
+                                    }
+                                    else{
+                                        echo ' , ';
+                                    }
+                                    if($r1->version == '0'){
+                                        if($r1->item1 == '9.1 pounds'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item2 == 'The Wulph'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item3 == 'No, just clutch settings.'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                    }
+                                    if($r1->version == '1'){
+                                        if($r1->item1 == '2'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item2 == '0'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item3 == '4.6'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                    }
+                                }
+                            }
+                            foreach($results[$i] as $r1){
+                                if(isset($r1->totalTime) && $r1->version == '1'){
+                                    echo 'v' . $r1->version . ', ';
+                                    echo $r1->totalTime . ', ';
+                                    if(isset($r1->distanceUp)){
+                                        echo $r1->distanceUp . ', ';
+                                    }
+                                    else{
+                                        echo ' , ';
+                                    }
+                                    if(isset($r1->distanceDown)){
+                                        echo $r1->distanceDown . ', ';
+                                    }
+                                    else{
+                                        echo ' , ';
+                                    }
+                                    if(isset($r1->navClicks)){
+                                        echo $r1->navClicks . ', ';
+                                    }
+                                    else{
+                                        echo ' , ';
+                                    }
+                                    if($r1->version == '0'){
+                                        if($r1->item1 == '9.1 pounds'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item2 == 'The Wulph'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item3 == 'No, just clutch settings.'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                    }
+                                    if($r1->version == '1'){
+                                        if($r1->item1 == '2'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item2 == '0'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                        if($r1->item3 == '4.6'){
+                                            echo '1, ';
+                                        }
+                                        else{
+                                            echo '0, ';
+                                        }
+                                    }
+                                }
+                            }
+
+                            echo $enhancedVersion . ', ';
+                            
+                            foreach($results[$i] as $r1){
+                                
+                                if(isset($r1->feedback)){
+                                    if($r1->feedback != ''){
+                                        echo $r1->feedback;
+                                    }
+                                    
+                                }
+                            }
+                            
+                            $i++;
+                            echo '<br>';
+                        }
+                        
+                    ?>
+
                 </tr>
             </table>
         </div><!--col-lg-12-->

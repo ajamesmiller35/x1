@@ -1,4 +1,4 @@
-{"id":"5e5d6c694e541","age":"37","gender":"F","nationality":"Other","nationalityOther":"Italy","usage":"8+","usageAmazon":"2"}
+{"id":"5e5d6c694e541","age":"37","gender":"F","nationality":"Italy","nationalityOther":"Italy","usage":"8+","usageAmazon":"2"}
 {"isMobile":true,"viewHeight":667,"viewWidth":375}
 {"version":1,"navType":"1","type":"m","totalTime":186539,"distanceUp":49807,"distanceDown":61939,"navClicks":0,"item1":"1","item2":"0","item3":"4.6"}
 

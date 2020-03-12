@@ -1,0 +1,12 @@
+{"id":"5e6a41b71c327","age":"16","gender":"M","nationality":"United States","nationalityOther":null,"usage":"8+","usageAmazon":"4"}
+{"isMobile":false,"viewHeight":749,"viewWidth":1440}
+{"version":0,"navType":"1","type":"d","totalTime":173258,"distanceUp":6891,"distanceDown":17179,"navClicks":6,"item1":"9.1 pounds","item2":"The Wulph","item3":"No, just clutch settings."}
+
+{"version":"0","problem":"No","problem-explanation":"","s1":"7","s2":"6","s3":"4","s4":"6","s5":"6","s6":"6","s7":"4","s8":"6","s9":"6","s10":"4","s11":"5","s12":"4","s13":"5","s14":"6","s15":"6","type":"d","navType":"1"}
+
+{"version":1,"navType":"0","type":"d","totalTime":130456,"distanceUp":14634,"distanceDown":23618,"navClicks":0,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"7","s2":"3","s3":"4","s4":"4","s5":"6","s6":"3","s7":"4","s8":"3","s9":"5","s10":"6","s11":"5","s12":"4","s13":"4","s14":"2","s15":"3","type":"d","navType":"0"}
+
+
+{"feedback":""}

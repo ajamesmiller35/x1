@@ -1,0 +1,12 @@
+{"id":"5e690a2ca58e5","age":"33","gender":"M","nationality":"United States","nationalityOther":null,"usage":"4-8","usageAmazon":"4"}
+{"isMobile":false,"viewHeight":814,"viewWidth":1808}
+{"version":1,"navType":"1","type":"d","totalTime":40518,"distanceUp":1112,"distanceDown":11004,"navClicks":0,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"","s1":"6","s2":"4","s3":"6","s4":"6","s5":"6","s6":"4","s7":"5","s8":"6","s9":"6","s10":"2","s11":"6","s12":"4","s13":"6","s14":"6","s15":"6","type":"d","navType":"1"}
+
+{"version":0,"navType":"0","type":"d","totalTime":124558,"distanceUp":17719,"distanceDown":27078,"navClicks":0,"item1":"9.1 pounds","item2":"The Wulph","item3":"I could not find this information"}
+
+{"version":"0","problem":"Yes","problem-explanation":"None of the answers for the third question were correct. The correct answer was \"an impact drill is not a hammer drill.\" ","s1":"6","s2":"4","s3":"3","s4":"2","s5":"4","s6":"4","s7":"5","s8":"4","s9":"4","s10":"6","s11":"5","s12":"4","s13":"4","s14":"4","s15":"2","type":"d","navType":"0"}
+
+
+{"feedback":""}

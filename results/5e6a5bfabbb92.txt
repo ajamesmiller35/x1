@@ -1,0 +1,12 @@
+{"id":"5e6a5bfabbb92","age":"16","gender":"M","nationality":"United States","nationalityOther":null,"usage":"2-4","usageAmazon":"3"}
+{"isMobile":false,"viewHeight":814,"viewWidth":1435}
+{"version":1,"navType":"1","type":"d","totalTime":71256,"distanceUp":23745,"distanceDown":33232,"navClicks":0,"item1":"2","item2":"0","item3":"4.6"}
+
+{"version":"1","problem":"No","problem-explanation":"it was easier to find this information when paying close attention.","s1":"7","s2":"7","s3":"5","s4":"7","s6":"4","s7":"3","s8":"5","s9":"6","s10":"2","s11":"1","s12":"4","s13":"5","s14":"5","s15":"6","type":"d","navType":"1"}
+
+{"version":0,"navType":"0","type":"d","totalTime":166250,"distanceUp":38345,"distanceDown":48176,"navClicks":0,"item1":"I could not find this information","item2":"I could not find this information","item3":"No, just clutch settings."}
+
+{"version":"0","problem":"Yes","problem-explanation":"I cold not find the information as easy","s1":"1","s2":"7","s3":"1","s4":"1","s5":"1","s6":"1","s7":"2","s8":"3","s9":"5","s10":"1","s11":"4","s12":"3","s13":"5","s14":"4","s15":"5","type":"d","navType":"0"}
+
+
+{"feedback":"Version two helped me find information better that the version 1"}

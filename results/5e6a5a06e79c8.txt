@@ -1,0 +1,5 @@
+{"id":"5e6a5a06e79c8","age":"","gender":null,"nationality":"United States","nationalityOther":null,"usage":null,"usageAmazon":null}
+{"isMobile":false,"viewHeight":949,"viewWidth":1663}
+{"version":0,"navType":"0","type":"d","totalTime":14625,"distanceUp":600,"distanceDown":10200,"navClicks":0,"item1":null,"item2":null,"item3":null}
+
+{"version":"0","problem":"No","problem-explanation":"","type":"d","navType":"0"}
