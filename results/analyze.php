@@ -47,6 +47,7 @@
     $version0TotalDown = 0;
     $version0TotalUp = 0;
     $version0Count = 0;
+    $feedback = array();
 
     for($j = 0; $j < sizeof($results); $j++){
         for($z = 0; $z < sizeof($results[$j]); $z++){
@@ -57,6 +58,9 @@
                     $version0TotalUp += $results[$j][$z]->distanceUp;
                     $version0Count++;
                 }
+            }
+            if(isset($results[$j][$z]->feedback)){
+                array_push($feedback, $results[$j][$z]->feedback);
             }
         }
     }
@@ -162,30 +166,82 @@
         }
     }
 
-    for($j = 0; $j < sizeof($results); $j++){
+    /*or($j = 0; $j < sizeof($results); $j++){
         for($z = 0; $z < sizeof($results[$j]); $z++){
             var_dump($results[$j]);
             echo '<br><br>';
         }
-    }
+    }*/
     
     $es = array(
-        0 => 0,
-        1 => 0,
-        2 => 0,
-        3 => 0,
-        4 => 0,
-        5 => 0,
-        6 => 0,
-        7 => 0,
-        8 => 0,
-        9 => 0,
-        10 => 0,
-        11 => 0,
-        12 => 0,
-        13 => 0,
-        14 => 0,
-        15 => 0
+        0 => array(
+            0 => 0,
+            1 => 0
+        ),
+        1 => array(
+            0 => 0,
+            1 => 0
+        ),
+        2 => array(
+            0 => 0,
+            1 => 0
+        ),
+        3 => array(
+            0 => 0,
+            1 => 0
+        ),
+        4 => array(
+            0 => 0,
+            1 => 0
+        ),
+        5 => array(
+            0 => 0,
+            1 => 0
+        ),
+        6 => array(
+            0 => 0,
+            1 => 0
+        ),
+        7 => array(
+            0 => 0,
+            1 => 0
+        ),
+        8 => array(
+            0 => 0,
+            1 => 0
+        ),
+        9 => array(
+            0 => 0,
+            1 => 0
+        ),
+        10 => array(
+            0 => 0,
+            1 => 0
+        ),
+        11 => array(
+            0 => 0,
+            1 => 0
+        ),
+        12 => array(
+            0 => 0,
+            1 => 0
+        ),
+        13 => array(
+            0 => 0,
+            1 => 0
+        ),
+        14 => array(
+            0 => 0,
+            1 => 0
+        ),
+        15 => array(
+            0 => 0,
+            1 => 0
+        ),
+        16 => array(
+            0 => 0,
+            1 => 0
+        ) 
     );
     
     $esChoice = array();
@@ -193,71 +249,42 @@
 
     for($j = 0; $j < sizeof($results); $j++){
         for($z = 0; $z < sizeof($results[$j]); $z++){
-            if(isset($results[$j][$z]->version)){
-                
-            }
+            
             if(isset($results[$j][$z]->s11)){
-                $es[0] += $results[$j][$z]->s1;
+                var_dump($results[$j][$z]);
+
+                //echo $results[$j][$z]->problem;
+                
+                echo "<br><br>";
+
+                if($results[$j][$z]->problem == 'Yes'){
+                    $es[16][0]++;
+                }
+                else{
+                    $es[16][1]++;
+                }
+
+                if(isset($results[$j][$z]->s1)){
+                    $es[0][0] += $results[$j][$z]->s1;
+                    $es[0][1]++;
+                }
+
+                /*$es[0] += $results[$j][$z]->s1;
                 $es[1] += $results[$j][$z]->s2;
                 $es[2] += $results[$j][$z]->s3;
                 $es[3] += $results[$j][$z]->s4;
                 $es[4] += $results[$j][$z]->s5;
                 $es[5] += $results[$j][$z]->s6;
                 $es[6] += $results[$j][$z]->s7;
+                $es[7] += $results[$j][$z]->s8;
+                $es[8] += $results[$j][$z]->s9;
+                $es[9] += $results[$j][$z]->s10;
+                $es[10] += $results[$j][$z]->s11;
+                $es[11] += $results[$j][$z]->s12;
+                $es[12] += $results[$j][$z]->s13;
+                $es[13] += $results[$j][$z]->s14;
+                $es[14] += $results[$j][$z]->s15;*/
 
-                if($results[$j][$z]->s8 == 1){
-                    $es[7][0]++;
-                }
-                if($results[$j][$z]->s8 == 2){
-                    $es[7][1]++;
-                }
-                if($results[$j][$z]->s8 == 3){
-                    $es[7][2]++;
-                }
-                if($results[$j][$z]->s8 == 4){
-                    $es[7][3]++;
-                }
-
-                if($results[$j][$z]->s9 == 1){
-                    $es[8][0]++;
-                }
-                if($results[$j][$z]->s9 == 2){
-                    $es[8][1]++;
-                }
-                if($results[$j][$z]->s9 == 3){
-                    $es[8][2]++;
-                }
-                if($results[$j][$z]->s9 == 4){
-                    $es[8][3]++;
-                }
-
-                if($results[$j][$z]->s10 == 1){
-                    $es[9][0]++;
-                }
-                if($results[$j][$z]->s10 == 2){
-                    $es[9][1]++;
-                }
-                if($results[$j][$z]->s10 == 3){
-                    $es[9][2]++;
-                }
-                if($results[$j][$z]->s10 == 4){
-                    $es[9][3]++;
-                }
-
-                if($results[$j][$z]->s11 == 1){
-                    $es[10][0]++;
-                }
-                if($results[$j][$z]->s11 == 2){
-                    $es[10][1]++;
-                }
-                if($results[$j][$z]->s11 == 3){
-                    $es[10][2]++;
-                }
-                if($results[$j][$z]->s11== 4){
-                    $es[10][3]++;
-                }
-
-                array_push($esChoice, $results[$j][$z]->s12);
                 $esTotal++;
             }
         }
@@ -273,7 +300,7 @@
     $ptq3Total = array();
     
 
-    for($n = 0; $n < 3; $n++){
+    /*for($n = 0; $n < 3; $n++){
         $distracted[$n] = array();
         $distracted[$n][0] = 0;
         $distracted[$n][1] = 0;
@@ -318,7 +345,7 @@
                 
             }
         }
-    }
+    }*/
 
     //var_dump($results);
 
@@ -573,8 +600,42 @@
                     <td><p>Technical Difficulties:</p></td>
                     <td>Yes: No:</td>
                     <td>Yes: No:</td>
-                    <td>Yes: No:</td>
+                    <td>Yes: <?php echo $es[16][0]; ?> No: <?php echo $es[16][1]; ?></td>
                 </tr>
+                <tr>
+                    <td colspan="4">Performance Expectancy</td>
+                </tr>
+                <tr>
+                    <td><p>PE1</p></td>
+                    <td><p>PE1</p></td>
+                    <td><p>PE1</p></td>
+                    <td><p>PE1</p></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Effort Expectancy</td>
+                </tr>
+                <tr>
+                    <td><p>EE1</p></td>
+                    <td><p>EE1</p></td>
+                    <td><p>EE1</p></td>
+                    <td><p>EE1</p></td>
+                </tr>
+                <tr>
+                    <td colspan="4">Facilitation Conditions</td>
+                </tr>
+                <tr>
+                    <td><p>FC1</p></td>
+                    <td><p>FC1</p></td>
+                    <td><p>FC1</p></td>
+                    <td><p>FC1</p></td>
+                </tr>
+                <tr>
+                    <td><p>FC2</p></td>
+                    <td><p>FC1</p></td>
+                    <td><p>FC1</p></td>
+                    <td><p><?php echo round($es[0][0]/$es[0][1], 2); ?></p></td>
+                </tr>
+
             </table>
         </div><!--col-lg-12-->
     </div><!--row-->
@@ -654,87 +715,12 @@
     </div><!--row-->
     <div class="row">
         <div class="col-lg-12">
-        <h3>Exit Survey</h3>
-            <table class="table">
-                <tr>
-                    <td colspan="3"><h4>General Questions</h4></td>
-                </tr>
-                <tr>
-                    <td><p>Having some additional location indicator (such as with Versions 2 and 3 of the site) was helpful in finding what I was looking for.</p></td>
-                    <td colspan="2"><p><?php echo round($es[0]/$esTotal, 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>I completely understood all of the directions given to me during this study.</p></td>
-                    <td colspan="2"><p><?php echo round($es[1]/$esTotal, 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td colspan="3"><h4>Questions about Version 0</h4></td>
-                </tr>
-                <tr>
-                    <td><p>The navigation bar in version 1 (with sections placed in the order they appeared on the page) made it easier to understand where I was on the site.</p></td>
-                    <td colspan="2"><p><?php echo round($es[2]/$esTotal, 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td colspan="3"><h4>Questions about Version 1</h4></td>
-                </tr>
-                <tr>
-                    <td><p>The highlighting in version 2 (moving red highlighting) made it easier to understand where I was at on the site.</p></td>
-                    <td colspan="2"><p><?php echo round($es[3]/$esTotal, 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td colspan="3"><h4>Questions about Version 2</h4></td>
-                </tr>
-                <tr>
-                    <td><p>The highlighting in version 3 (enlarged/emboldened text) made it easier to understand where I was at on the site.</p></td>
-                    <td colspan="2"><p><?php echo round($es[5]/$esTotal, 2); ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>The highlighting in version 3 (enlarged text) made it easier to understand where I was at on the site.</p></td>
-                    <td colspan="2"><p><?php echo round($es[6]/$esTotal, 2); ?></p></td>
-                </tr>
-            </table>
-            <table class="table">
-                <tr>
-                    <td><h4>Questions Comparing each site</h4></td>
-                    <td><h6>Version 0:</h6></td>
-                    <td><h6>Version 1:</h6></td>
-                    <td><h6>Version 2:</h6></td>
-                    <td><h6>No Preference:</h6></td>
-                </tr>
-                <tr>
-                    <td><p>I found it easiest to understand where I was at on the page in the following site design:</p></td>
-                    <td><p><?php echo $es[7][0] . '(' . round($es[7][0]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[7][1] . '(' . round($es[7][1]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[7][2] . '(' . round($es[7][2]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[7][3] . '(' . round($es[7][3]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>I found it easiest to find information in the following site design:</p></td>
-                    <td><p><?php echo $es[8][0] . '(' . round($es[8][0]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[8][1] . '(' . round($es[8][1]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[8][2] . '(' . round($es[8][2]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[8][3] . '(' . round($es[8][3]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>I found the following site the design the most pleasing to look at:</p></td>
-                    <td><p><?php echo $es[9][0] . '(' . round($es[9][0]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[9][1] . '(' . round($es[9][1]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[9][2] . '(' . round($es[9][2]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[9][3] . '(' . round($es[9][3]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                </tr>
-                <tr>
-                    <td><p>Considering all factors, my favorite website design is:</p></td>
-                    <td><p><?php echo $es[10][0] . '(' . round($es[10][0]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[10][1] . '(' . round($es[10][1]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[10][2] . '(' . round($es[10][2]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                    <td><p><?php echo $es[10][3] . '(' . round($es[10][3]/$esTotal, 3) * 100 . '%)'; ?></p></td>
-                </tr>
-            </table>
+        
             <table class="table">
                 <tr>
                     <td><h4>Briefly, please explain how you chose your favorite (or why you didn't have one):</h4></td>
                     <?php 
-                        foreach($esChoice as $choice){
+                        foreach($feedback as $choice){
                             if($choice != ''){
                             echo '<tr><td><p>"' . $choice . '"</p></td></tr>';
                             }
